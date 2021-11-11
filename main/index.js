@@ -2,17 +2,29 @@ const fs = require('fs/promises');
 const nextServerService = require('./next-server');
 const jsonServerService = require('./json-server');
 const electronApp = require('./electron');
+const { autoUpdater } = require('electron-updater');
 
 function startService() {
-    // Menjalankan server web
-    nextServerService().then(({ port: nextServerPort }) => {
-        // Menjalankan json server untuk login
-        jsonServerService(3001, './storage/userdata.json').then(({ port: jsonServerPort }) => {
-            // Menjalankan json server untuk setelan aplikasi
-            jsonServerService(3002, './storage/preferences.json').then(() => {
-                // Menjalankan json server untuk penyimpanan stok
-                jsonServerService(3003, './storage/stocks.json').then(() => {
-                    electronApp({nextServerPort});
+    electronApp().then(({ electronApp, electronWindow, ipcMain }) => {
+        // autoUpdater.on()
+        // Menjalankan server web
+        nextServerService().then(({ port: nextServerPort }) => {
+            // Menjalankan json server untuk login
+            jsonServerService(3001, 'userdata.json').then(({ port: jsonServerPort }) => {
+                // Menjalankan json server untuk setelan aplikasi
+                jsonServerService(3002, 'preferences.json').then(() => {
+                    // Menjalankan json server untuk penyimpanan stok
+                    jsonServerService(3003, 'stocks.json').then(() => {
+                        autoUpdater.checkForUpdatesAndNotify();
+                        autoUpdater.on('update-available', () => {
+                            console.log('update-available');
+                        });
+                        autoUpdater.on('update-downloaded', () => {
+
+                        });
+
+                        electronWindow.loadURL('http://localhost:' + nextServerPort);
+                    });
                 });
             });
         });
@@ -57,8 +69,8 @@ function decryptApplicationDatabase() {
 
 fs.readFile('./UNLOCK').then(content => {
     decryptApplicationDatabase();
-    fs.unlink('./storage/LOCKED').catch(() => {});
-    fs.unlink('./UNLOCK').catch(() => {});
+    fs.unlink('./storage/LOCKED').catch(() => { });
+    fs.unlink('./UNLOCK').catch(() => { });
     console.log('Application Unlocked!');
 }).catch(() => {
     fs.readFile('./storage/LOCKED').then(content => {

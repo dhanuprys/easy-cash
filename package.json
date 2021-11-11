@@ -14,14 +14,16 @@
     "dev": "next dev",
     "build": "next build renderer",
     "start": "electron .",
-    "dist": "yarn build && electron-builder build --linux --win --publish never",
-    "deploy": "yarn build && electron-builder build --linux --win --publish always",
+    "start-prod": "yarn build && cross-env NODE_ENV=production yarn start",
+    "dist": "yarn build && electron-builder build --win --publish never",
+    "deploy": "yarn build && electron-builder build --win --publish always",
     "pack": "yarn build && electron-builder --dir",
     "lint": "next lint",
     "postinstall": "install-app-deps"
   },
   "build": {
-    "appId": "kasirku",
+    "asar": true,
+    "appId": "com.dedan.easycash",
     "dmg": {
       "contents": [
         {
@@ -54,7 +56,9 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@reduxjs/toolkit": "^1.6.2",
     "axios": "^0.24.0",
+    "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
+    "electron-is-dev": "^2.0.0",
     "electron-updater": "^4.3.9",
     "exceljs": "^4.3.0",
     "express": "^4.17.1",

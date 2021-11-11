@@ -1,6 +1,7 @@
 const { env } = require('process');
+const { join } = require('path');
 const jsonServer = require('json-server');
-const getPort = require('get-port-sync');
+const electronIsDev = require('electron-is-dev');
 
 module.exports = function (devPort = 3001, dbLocation = null) {
     return new Promise((resolve, reject) => {
@@ -8,10 +9,11 @@ module.exports = function (devPort = 3001, dbLocation = null) {
             reject(new Error('DB Location must be exist!'));
         }
 
-        const isDev = env.NODE_ENV !== 'production';
+        let isDev = env.NODE_ENV !== 'production';
+        isDev = isDev ? electronIsDev : isDev;
         const availablePort = isDev ? devPort : 0;
         const jsonHttpServer = jsonServer.create();
-        const jsonHttpRouter = jsonServer.router(dbLocation);
+        const jsonHttpRouter = jsonServer.router(join(__dirname, '../storage', dbLocation));
         const jsonHttpMiddlewares = jsonServer.defaults();
         let serverListener = null;
 

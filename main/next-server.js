@@ -1,14 +1,24 @@
 const { parse: urlParse } = require('url');
+const { join } = require('path');
 const express = require('express');
 const getPort = require('get-port-sync');
 const { env } = require('process');
 const next = require('next');
+const electronIsDev = require('electron-is-dev');
 
 module.exports = function () {
     return new Promise((resolve, reject) => {
-        const isDev = env.NODE_ENV !== 'production';
+        let isDev = env.NODE_ENV !== 'production';
+        isDev = isDev ? electronIsDev : isDev;
         const availablePort = isDev ? 3000 : 0;
-        const nextApp = next({ dev: isDev, dir: './renderer' });
+        const nextApp = next({ 
+            dev: isDev, 
+            dir: join(__dirname, '../renderer'), 
+            conf: {
+                reactStrictMode: true
+                // useFileSystemPublicRoutes: false
+            }
+        });
         const nextHandler = nextApp.getRequestHandler();
         const server = express();
         let serverListener = null;

@@ -1,16 +1,19 @@
 const { app: electronApp, BrowserWindow } = require('electron');
 
-function createWindow(webPort) {
-    const window = new BrowserWindow({
-        width: 640,
-        height: 500
-    });
+module.exports = function () {
+    return new Promise((resolve, reject) => {
+        electronApp.whenReady().then(() => {
+            const electronWindow = new BrowserWindow({
+                width: 640,
+                height: 500
+            });
 
-    window.loadURL('http://localhost:' + webPort);
-}
+            resolve({
+                electronApp,
+                electronWindow
+            });
+        });
 
-module.exports = function ({ nextServerPort }) {
-    electronApp.whenReady().then(() => {
-        createWindow(nextServerPort);
-    });
+        electronApp.on('window-all-closed', electronApp.quit);
+    })
 }
