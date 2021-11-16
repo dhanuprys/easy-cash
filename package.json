@@ -5,7 +5,7 @@
   "description": "Aplikasi kasir",
   "main": "./main/index.js",
   "homepage": "https://github.com/dhanuprys/easy-cash",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/dhanuprys/easy-cash.git"
@@ -49,7 +49,13 @@
     },
     "win": {
       "target": "nsis",
+      "requestedExecutionLevel": "requireAdministrator",
       "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "guid": "7796add4-b195-42f5-b57b-089abc859e7c",
+      "oneClick": true,
+      "perMachine": true
     }
   },
   "dependencies": {
