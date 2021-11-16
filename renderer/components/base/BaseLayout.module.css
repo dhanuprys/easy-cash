@@ -1,0 +1,62 @@
+.baseLayout {
+    display: flex;
+}
+
+.sideContainer {
+    flex: 20%;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.336);
+}
+
+.sidenavSelect {
+    /* background: green; */
+    padding: 1rem;
+    /* color: white; */
+}
+
+.sidenavSelect:hover {
+    background-color: blue;
+    color: white;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.mainContainer {
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.transactionHistoryContainer {
+    flex: 9%;
+    background: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.transactionIn, .transactionOut {
+    /* min-height: 100%; */
+    color: white;
+    font-weight: bolder;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.transactionIn > span, .transactionOut > span {
+    margin-left: 1rem;
+}
+
+.transactionIn {
+    background-color: green;;
+}
+
+.transactionOut {
+    background: red;
+}
+
+.navigationDisplay {
+    flex: 91%;
+}

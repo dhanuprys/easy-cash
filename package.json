@@ -5,10 +5,13 @@
   "description": "Aplikasi kasir",
   "main": "./main/index.js",
   "homepage": "https://github.com/dhanuprys/easy-cash",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/dhanuprys/easy-cash.git"
+  },
+  "browser": {
+    "fs": false
   },
   "scripts": {
     "dev": "next dev",
@@ -71,7 +74,8 @@
     "qrcode": "^1.4.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-redux": "^7.2.6"
+    "react-redux": "^7.2.6",
+    "ws": "^8.2.3"
   },
   "devDependencies": {
     "electron": "^15.3.1",

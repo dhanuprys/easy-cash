@@ -1,0 +1,35 @@
+.container {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    opacity: 0;
+    animation: show-toast 100ms ease-out forwards alternate, show-toast 100ms ease-in 4.5s forwards alternate-reverse;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    border-bottom: 3px solid rgb(0, 0, 211);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.main:hover {
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+@keyframes show-toast {
+    from {
+        transform: translateX(-50%) translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-10px);
+        opacity: 1;
+    }
+}

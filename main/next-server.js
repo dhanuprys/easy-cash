@@ -1,7 +1,6 @@
 const { parse: urlParse } = require('url');
 const { join } = require('path');
 const express = require('express');
-const getPort = require('get-port-sync');
 const { env } = require('process');
 const next = require('next');
 const electronIsDev = require('electron-is-dev');
@@ -11,11 +10,21 @@ module.exports = function () {
         let isDev = env.NODE_ENV !== 'production';
         isDev = isDev ? electronIsDev : isDev;
         const availablePort = isDev ? 3000 : 0;
-        const nextApp = next({ 
-            dev: isDev, 
-            dir: join(__dirname, '../renderer'), 
+        const nextApp = next({
+            dev: isDev,
+            dir: join(__dirname, '../renderer'),
             conf: {
-                reactStrictMode: true
+                reactStrictMode: true,
+                // webpack: (config, { isServer }) => {
+                //     // Fixes npm packages that depend on `fs` module
+                //     if (!isServer) {
+                //         config.node = {
+                //             fs: 'empty'
+                //         }
+                //     }
+
+                //     return config
+                // }
                 // useFileSystemPublicRoutes: false
             }
         });

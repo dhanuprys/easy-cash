@@ -1,16 +1,21 @@
-const { app: electronApp, BrowserWindow } = require('electron');
+const { app: electronApp, BrowserWindow, ipcMain } = require('electron');
 
 module.exports = function () {
     return new Promise((resolve, reject) => {
         electronApp.whenReady().then(() => {
             const electronWindow = new BrowserWindow({
-                width: 640,
-                height: 500
+                width: 840,
+                height: 500,
+                webPreferences: {
+                    nodeIntegration: true,
+                    contextIsolation: false
+                }
             });
 
             resolve({
                 electronApp,
-                electronWindow
+                electronWindow,
+                ipcMain
             });
         });
 

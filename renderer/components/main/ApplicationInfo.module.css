@@ -1,0 +1,79 @@
+.updateContainer {
+    background: white;
+    padding: 1rem 1.3rem;
+    border-radius: 7px;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.updateInfo {
+    display: flex;
+    flex: 80%;
+}
+
+.updateIcon {
+    font-size: 50px;
+    margin-right: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.updateTitle {
+    min-width: 100%;
+}
+
+.updateTitle > .updateProgress {
+    min-width: 100%;
+    margin: 0.5rem 0;
+    background-color: grey;
+}
+
+.updateProgress > .updateProgressUI {
+    background: blue;
+    height: 1px;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 7px;
+    padding: 2px;
+    animation: change-width 5s ease alternate-reverse infinite;
+}
+
+.updateAction {
+    flex: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.updateAction > .updateButton {
+    background: blue;
+    color: white;
+    border: 1px solid rgb(0, 0, 134);
+    border-bottom: 3px solid rgb(0, 0, 134);
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.updateAction > .updateButton:hover {
+    background-color: rgb(70, 70, 255);
+}
+
+@keyframes change-width {
+    from {
+        min-width: 0;
+        max-width: 0%;
+    }
+
+    to {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.updateReady {
+    background: white;
+    padding: 1rem 1.3rem;
+    border-radius: 7px;
+    display: flex;
+}   
