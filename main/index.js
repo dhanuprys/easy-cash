@@ -26,6 +26,11 @@ function startService() {
                                     wsClient.map(ws => ws.send(JSON.stringify({ action: 'update-available' })));
                                 }
                             });
+
+                            autoUpdater.on('download-progress', (progressObj) => {
+                                console.log(progressObj);
+                            });
+
                             autoUpdater.on('update-downloaded', () => {
                                 if (wsClient) {
                                     wsClient.map(ws => ws.send(JSON.stringify({ action: 'update-downloaded' })));
