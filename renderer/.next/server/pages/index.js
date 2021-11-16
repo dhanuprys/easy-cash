@@ -1,172 +1,426 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./components/base/BaseLayout.module.css":
-/*!***********************************************!*\
-  !*** ./components/base/BaseLayout.module.css ***!
-  \***********************************************/
+/***/ 349:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"baseLayout\": \"BaseLayout_baseLayout__1gy2v\",\n\t\"sideContainer\": \"BaseLayout_sideContainer__1bETK\",\n\t\"sidenavSelect\": \"BaseLayout_sidenavSelect__3TjmV\",\n\t\"mainContainer\": \"BaseLayout_mainContainer__3DZwG\",\n\t\"transactionHistoryContainer\": \"BaseLayout_transactionHistoryContainer__2OdBO\",\n\t\"transactionIn\": \"BaseLayout_transactionIn__3_bSh\",\n\t\"transactionOut\": \"BaseLayout_transactionOut__1mPOO\",\n\t\"navigationDisplay\": \"BaseLayout_navigationDisplay__3Dukq\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2Jhc2UvQmFzZUxheW91dC5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb21wb25lbnRzL2Jhc2UvQmFzZUxheW91dC5tb2R1bGUuY3NzPzBkNzAiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiYmFzZUxheW91dFwiOiBcIkJhc2VMYXlvdXRfYmFzZUxheW91dF9fMWd5MnZcIixcblx0XCJzaWRlQ29udGFpbmVyXCI6IFwiQmFzZUxheW91dF9zaWRlQ29udGFpbmVyX18xYkVUS1wiLFxuXHRcInNpZGVuYXZTZWxlY3RcIjogXCJCYXNlTGF5b3V0X3NpZGVuYXZTZWxlY3RfXzNUam1WXCIsXG5cdFwibWFpbkNvbnRhaW5lclwiOiBcIkJhc2VMYXlvdXRfbWFpbkNvbnRhaW5lcl9fM0Rad0dcIixcblx0XCJ0cmFuc2FjdGlvbkhpc3RvcnlDb250YWluZXJcIjogXCJCYXNlTGF5b3V0X3RyYW5zYWN0aW9uSGlzdG9yeUNvbnRhaW5lcl9fMk9kQk9cIixcblx0XCJ0cmFuc2FjdGlvbkluXCI6IFwiQmFzZUxheW91dF90cmFuc2FjdGlvbkluX18zX2JTaFwiLFxuXHRcInRyYW5zYWN0aW9uT3V0XCI6IFwiQmFzZUxheW91dF90cmFuc2FjdGlvbk91dF9fMW1QT09cIixcblx0XCJuYXZpZ2F0aW9uRGlzcGxheVwiOiBcIkJhc2VMYXlvdXRfbmF2aWdhdGlvbkRpc3BsYXlfXzNEdWtxXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/base/BaseLayout.module.css\n");
+// Exports
+module.exports = {
+	"baseLayout": "BaseLayout_baseLayout__1gy2v",
+	"sideContainer": "BaseLayout_sideContainer__1bETK",
+	"sidenavSelect": "BaseLayout_sidenavSelect__3TjmV",
+	"mainContainer": "BaseLayout_mainContainer__3DZwG",
+	"transactionHistoryContainer": "BaseLayout_transactionHistoryContainer__2OdBO",
+	"transactionIn": "BaseLayout_transactionIn__3_bSh",
+	"transactionOut": "BaseLayout_transactionOut__1mPOO",
+	"navigationDisplay": "BaseLayout_navigationDisplay__3Dukq"
+};
+
 
 /***/ }),
 
-/***/ "./components/main/ApplicationInfo.module.css":
-/*!****************************************************!*\
-  !*** ./components/main/ApplicationInfo.module.css ***!
-  \****************************************************/
+/***/ 166:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"updateContainer\": \"ApplicationInfo_updateContainer__3wocE\",\n\t\"updateInfo\": \"ApplicationInfo_updateInfo__1vpmu\",\n\t\"updateIcon\": \"ApplicationInfo_updateIcon__3dcgH\",\n\t\"updateTitle\": \"ApplicationInfo_updateTitle__24aGx\",\n\t\"updateProgress\": \"ApplicationInfo_updateProgress__3E9wu\",\n\t\"updateProgressUI\": \"ApplicationInfo_updateProgressUI__25LHA\",\n\t\"change-width\": \"ApplicationInfo_change-width__3Wkpv\",\n\t\"updateAction\": \"ApplicationInfo_updateAction__3nqaR\",\n\t\"updateButton\": \"ApplicationInfo_updateButton__2j-9q\",\n\t\"updateReady\": \"ApplicationInfo_updateReady__zoeYz\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL21haW4vQXBwbGljYXRpb25JbmZvLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb21wb25lbnRzL21haW4vQXBwbGljYXRpb25JbmZvLm1vZHVsZS5jc3M/ZGRjMyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJ1cGRhdGVDb250YWluZXJcIjogXCJBcHBsaWNhdGlvbkluZm9fdXBkYXRlQ29udGFpbmVyX18zd29jRVwiLFxuXHRcInVwZGF0ZUluZm9cIjogXCJBcHBsaWNhdGlvbkluZm9fdXBkYXRlSW5mb19fMXZwbXVcIixcblx0XCJ1cGRhdGVJY29uXCI6IFwiQXBwbGljYXRpb25JbmZvX3VwZGF0ZUljb25fXzNkY2dIXCIsXG5cdFwidXBkYXRlVGl0bGVcIjogXCJBcHBsaWNhdGlvbkluZm9fdXBkYXRlVGl0bGVfXzI0YUd4XCIsXG5cdFwidXBkYXRlUHJvZ3Jlc3NcIjogXCJBcHBsaWNhdGlvbkluZm9fdXBkYXRlUHJvZ3Jlc3NfXzNFOXd1XCIsXG5cdFwidXBkYXRlUHJvZ3Jlc3NVSVwiOiBcIkFwcGxpY2F0aW9uSW5mb191cGRhdGVQcm9ncmVzc1VJX18yNUxIQVwiLFxuXHRcImNoYW5nZS13aWR0aFwiOiBcIkFwcGxpY2F0aW9uSW5mb19jaGFuZ2Utd2lkdGhfXzNXa3B2XCIsXG5cdFwidXBkYXRlQWN0aW9uXCI6IFwiQXBwbGljYXRpb25JbmZvX3VwZGF0ZUFjdGlvbl9fM25xYVJcIixcblx0XCJ1cGRhdGVCdXR0b25cIjogXCJBcHBsaWNhdGlvbkluZm9fdXBkYXRlQnV0dG9uX18yai05cVwiLFxuXHRcInVwZGF0ZVJlYWR5XCI6IFwiQXBwbGljYXRpb25JbmZvX3VwZGF0ZVJlYWR5X196b2VZelwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/main/ApplicationInfo.module.css\n");
+// Exports
+module.exports = {
+	"updateContainer": "ApplicationInfo_updateContainer__3wocE",
+	"updateInfo": "ApplicationInfo_updateInfo__1vpmu",
+	"updateIcon": "ApplicationInfo_updateIcon__3dcgH",
+	"updateTitle": "ApplicationInfo_updateTitle__24aGx",
+	"updateProgress": "ApplicationInfo_updateProgress__3E9wu",
+	"updateProgressUI": "ApplicationInfo_updateProgressUI__25LHA",
+	"change-width": "ApplicationInfo_change-width__3Wkpv",
+	"updateAction": "ApplicationInfo_updateAction__3nqaR",
+	"updateButton": "ApplicationInfo_updateButton__2j-9q",
+	"updateReady": "ApplicationInfo_updateReady__zoeYz"
+};
+
 
 /***/ }),
 
-/***/ "./items/FullScreen.module.css":
-/*!*************************************!*\
-  !*** ./items/FullScreen.module.css ***!
-  \*************************************/
-/***/ ((module) => {
-
-eval("// Exports\nmodule.exports = {\n\t\"container\": \"FullScreen_container__2Qxm0\",\n\t\"center\": \"FullScreen_center__3ruFl\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pdGVtcy9GdWxsU2NyZWVuLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2l0ZW1zL0Z1bGxTY3JlZW4ubW9kdWxlLmNzcz9jNWZjIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcIkZ1bGxTY3JlZW5fY29udGFpbmVyX18yUXhtMFwiLFxuXHRcImNlbnRlclwiOiBcIkZ1bGxTY3JlZW5fY2VudGVyX18zcnVGbFwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./items/FullScreen.module.css\n");
-
-/***/ }),
-
-/***/ "./components/base/BaseLayout.jsx":
-/*!****************************************!*\
-  !*** ./components/base/BaseLayout.jsx ***!
-  \****************************************/
+/***/ 746:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ BaseLayout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _TransactionDay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TransactionDay */ \"./components/base/TransactionDay.jsx\");\n/* harmony import */ var _items_FullScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../items/FullScreen */ \"./items/FullScreen.jsx\");\n/* harmony import */ var _SideBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SideBar */ \"./components/base/SideBar.jsx\");\n/* harmony import */ var _main_CashierConfirmation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../main/CashierConfirmation */ \"./components/main/CashierConfirmation.jsx\");\n/* harmony import */ var _main_ApplicationInfo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../main/ApplicationInfo */ \"./components/main/ApplicationInfo.jsx\");\n/* harmony import */ var _BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./BaseLayout.module.css */ \"./components/base/BaseLayout.module.css\");\n/* harmony import */ var _BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);\n\n\n\n\n\n\n\n\n\nfunction Stocks() {\n    return \"Stock\";\n}\nfunction TransactionHistory() {\n    return \"History\";\n}\nfunction DefaultMainPage() {\n    // const message = useSelector((state) => state.app.wsMessage);\n    // useEffect(() => {\n    //     alert(JSON.stringify(message));\n    // })\n    return \"ME\";\n}\nfunction BaseLayout() {\n    const selectedPage = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)((state)=>state.mainApp.component\n    );\n    let ActivePage = DefaultMainPage;\n    // Memastikan komponen utama yang dipilih ada dalam salah satu\n    // pilihan komponen\n    switch(selectedPage){\n        case 'cashier_confirmation':\n            ActivePage = _main_CashierConfirmation__WEBPACK_IMPORTED_MODULE_5__[\"default\"];\n            break;\n        case 'stocks':\n            ActivePage = Stocks;\n            break;\n        case 'history':\n            ActivePage = TransactionHistory;\n            break;\n        case 'app_info':\n            ActivePage = _main_ApplicationInfo__WEBPACK_IMPORTED_MODULE_6__[\"default\"];\n            break;\n    }\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_items_FullScreen__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n        className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_8___default().baseLayout),\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\BaseLayout.jsx\",\n            lineNumber: 48,\n            columnNumber: 9\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_SideBar__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\BaseLayout.jsx\",\n                    lineNumber: 49,\n                    columnNumber: 13\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_8___default().mainContainer),\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\BaseLayout.jsx\",\n                    lineNumber: 50,\n                    columnNumber: 13\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_TransactionDay__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\BaseLayout.jsx\",\n                            lineNumber: 51,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                        className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_8___default().navigationDisplay),\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\BaseLayout.jsx\",\n                            lineNumber: 52,\n                            columnNumber: 17\n                        },\n                        __self: this,\n                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(ActivePage, {\n                            __source: {\n                                fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\BaseLayout.jsx\",\n                                lineNumber: 53,\n                                columnNumber: 21\n                            },\n                            __self: this\n                        })\n                    })\n                ]\n            })\n        ]\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2Jhc2UvQmFzZUxheW91dC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQXlDO0FBQ0k7QUFDRTtBQUNoQjtBQUM4QjtBQUNSO0FBQ1Q7QUFDWDtTQUV4QlEsTUFBTSxHQUFHLENBQUM7SUFDZixNQUFNLENBQUMsQ0FBTztBQUNsQixDQUFDO1NBRVFDLGtCQUFrQixHQUFHLENBQUM7SUFDM0IsTUFBTSxDQUFDLENBQVM7QUFDcEIsQ0FBQztTQUVRQyxlQUFlLEdBQUcsQ0FBQztJQUN4QixFQUErRDtJQUMvRCxFQUFvQjtJQUNwQixFQUFzQztJQUN0QyxFQUFLO0lBQ0wsTUFBTSxDQUFDLENBQUk7QUFDZixDQUFDO0FBRWMsUUFBUSxDQUFDQyxVQUFVLEdBQUcsQ0FBQztJQUNsQyxLQUFLLENBQUNDLFlBQVksR0FBR1osd0RBQVcsRUFBRWEsS0FBSyxHQUFLQSxLQUFLLENBQUNDLE9BQU8sQ0FBQ0MsU0FBUzs7SUFDbkUsR0FBRyxDQUFDQyxVQUFVLEdBQUdOLGVBQWU7SUFFaEMsRUFBOEQ7SUFDOUQsRUFBbUI7SUFDbkIsTUFBTSxDQUFFRSxZQUFZO1FBQ2hCLElBQUksQ0FBQyxDQUFzQjtZQUN2QkksVUFBVSxHQUFHWixpRUFBbUI7WUFDaEMsS0FBSztRQUNULElBQUksQ0FBQyxDQUFRO1lBQ1RZLFVBQVUsR0FBR1IsTUFBTTtZQUNuQixLQUFLO1FBQ1QsSUFBSSxDQUFDLENBQVM7WUFDVlEsVUFBVSxHQUFHUCxrQkFBa0I7WUFDL0IsS0FBSztRQUNULElBQUksQ0FBQyxDQUFVO1lBQ1hPLFVBQVUsR0FBR1gsNkRBQWU7WUFDNUIsS0FBSzs7SUFHYixNQUFNLHVFQUNESCx5REFBVTtRQUFDZSxTQUFTLEVBQUVYLDBFQUFpQjs7Ozs7Ozs7aUZBQ25DSCxnREFBTzs7Ozs7Ozs7a0ZBQ1BnQixDQUFHO2dCQUFDRixTQUFTLEVBQUVYLDZFQUFvQjs7Ozs7Ozs7eUZBQy9CTCx1REFBYzs7Ozs7Ozs7eUZBQ2RrQixDQUFHO3dCQUFDRixTQUFTLEVBQUVYLGlGQUF3Qjs7Ozs7Ozt1R0FDbkNVLFVBQVU7Ozs7Ozs7Ozs7Ozs7QUFLL0IsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2NvbXBvbmVudHMvYmFzZS9CYXNlTGF5b3V0LmpzeD9hOTA4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZVNlbGVjdG9yIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xyXG5pbXBvcnQgVHJhbnNhY3Rpb25EYXkgZnJvbSAnLi9UcmFuc2FjdGlvbkRheSc7XHJcbmltcG9ydCBGdWxsU2NyZWVuIGZyb20gJy4uLy4uL2l0ZW1zL0Z1bGxTY3JlZW4nO1xyXG5pbXBvcnQgU2lkZUJhciBmcm9tICcuL1NpZGVCYXInO1xyXG5pbXBvcnQgQ2FzaGllckNvbmZpcm1hdGlvbiBmcm9tICcuLi9tYWluL0Nhc2hpZXJDb25maXJtYXRpb24nO1xyXG5pbXBvcnQgQXBwbGljYXRpb25JbmZvIGZyb20gJy4uL21haW4vQXBwbGljYXRpb25JbmZvJztcclxuaW1wb3J0IHN0eWxlcyBmcm9tICcuL0Jhc2VMYXlvdXQubW9kdWxlLmNzcyc7XHJcbmltcG9ydCB7IHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JztcclxuXHJcbmZ1bmN0aW9uIFN0b2NrcygpIHtcclxuICAgIHJldHVybiBcIlN0b2NrXCI7XHJcbn1cclxuXHJcbmZ1bmN0aW9uIFRyYW5zYWN0aW9uSGlzdG9yeSgpIHtcclxuICAgIHJldHVybiBcIkhpc3RvcnlcIjtcclxufVxyXG5cclxuZnVuY3Rpb24gRGVmYXVsdE1haW5QYWdlKCkge1xyXG4gICAgLy8gY29uc3QgbWVzc2FnZSA9IHVzZVNlbGVjdG9yKChzdGF0ZSkgPT4gc3RhdGUuYXBwLndzTWVzc2FnZSk7XHJcbiAgICAvLyB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgLy8gICAgIGFsZXJ0KEpTT04uc3RyaW5naWZ5KG1lc3NhZ2UpKTtcclxuICAgIC8vIH0pXHJcbiAgICByZXR1cm4gXCJNRVwiO1xyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCYXNlTGF5b3V0KCkge1xyXG4gICAgY29uc3Qgc2VsZWN0ZWRQYWdlID0gdXNlU2VsZWN0b3IoKHN0YXRlKSA9PiBzdGF0ZS5tYWluQXBwLmNvbXBvbmVudCk7XHJcbiAgICBsZXQgQWN0aXZlUGFnZSA9IERlZmF1bHRNYWluUGFnZTtcclxuXHJcbiAgICAvLyBNZW1hc3Rpa2FuIGtvbXBvbmVuIHV0YW1hIHlhbmcgZGlwaWxpaCBhZGEgZGFsYW0gc2FsYWggc2F0dVxyXG4gICAgLy8gcGlsaWhhbiBrb21wb25lblxyXG4gICAgc3dpdGNoIChzZWxlY3RlZFBhZ2UpIHtcclxuICAgICAgICBjYXNlICdjYXNoaWVyX2NvbmZpcm1hdGlvbic6XHJcbiAgICAgICAgICAgIEFjdGl2ZVBhZ2UgPSBDYXNoaWVyQ29uZmlybWF0aW9uO1xyXG4gICAgICAgICAgICBicmVhaztcclxuICAgICAgICBjYXNlICdzdG9ja3MnOiBcclxuICAgICAgICAgICAgQWN0aXZlUGFnZSA9IFN0b2NrcztcclxuICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgY2FzZSAnaGlzdG9yeSc6XHJcbiAgICAgICAgICAgIEFjdGl2ZVBhZ2UgPSBUcmFuc2FjdGlvbkhpc3Rvcnk7XHJcbiAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgIGNhc2UgJ2FwcF9pbmZvJzpcclxuICAgICAgICAgICAgQWN0aXZlUGFnZSA9IEFwcGxpY2F0aW9uSW5mbztcclxuICAgICAgICAgICAgYnJlYWs7XHJcbiAgICB9ICAgIFxyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPEZ1bGxTY3JlZW4gY2xhc3NOYW1lPXtzdHlsZXMuYmFzZUxheW91dH0+XHJcbiAgICAgICAgICAgIDxTaWRlQmFyIC8+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMubWFpbkNvbnRhaW5lcn0+XHJcbiAgICAgICAgICAgICAgICA8VHJhbnNhY3Rpb25EYXkgLz5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMubmF2aWdhdGlvbkRpc3BsYXl9PlxyXG4gICAgICAgICAgICAgICAgICAgIDxBY3RpdmVQYWdlIC8+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9GdWxsU2NyZWVuPlxyXG4gICAgKTtcclxufSJdLCJuYW1lcyI6WyJ1c2VTZWxlY3RvciIsIlRyYW5zYWN0aW9uRGF5IiwiRnVsbFNjcmVlbiIsIlNpZGVCYXIiLCJDYXNoaWVyQ29uZmlybWF0aW9uIiwiQXBwbGljYXRpb25JbmZvIiwic3R5bGVzIiwidXNlRWZmZWN0IiwiU3RvY2tzIiwiVHJhbnNhY3Rpb25IaXN0b3J5IiwiRGVmYXVsdE1haW5QYWdlIiwiQmFzZUxheW91dCIsInNlbGVjdGVkUGFnZSIsInN0YXRlIiwibWFpbkFwcCIsImNvbXBvbmVudCIsIkFjdGl2ZVBhZ2UiLCJjbGFzc05hbWUiLCJiYXNlTGF5b3V0IiwiZGl2IiwibWFpbkNvbnRhaW5lciIsIm5hdmlnYXRpb25EaXNwbGF5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/base/BaseLayout.jsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home),
+  "getServerSideProps": () => (/* binding */ getServerSideProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react-redux"
+var external_react_redux_ = __webpack_require__(22);
+;// CONCATENATED MODULE: external "@fortawesome/react-fontawesome"
+const react_fontawesome_namespaceObject = require("@fortawesome/react-fontawesome");
+;// CONCATENATED MODULE: external "@fortawesome/free-solid-svg-icons"
+const free_solid_svg_icons_namespaceObject = require("@fortawesome/free-solid-svg-icons");
+// EXTERNAL MODULE: ./components/base/BaseLayout.module.css
+var BaseLayout_module = __webpack_require__(349);
+var BaseLayout_module_default = /*#__PURE__*/__webpack_require__.n(BaseLayout_module);
+;// CONCATENATED MODULE: ./components/base/TransactionDay.jsx
+
+
+
+
+function TransactionDay() {
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (BaseLayout_module_default()).transactionHistoryContainer,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (BaseLayout_module_default()).transactionOut,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome_namespaceObject.FontAwesomeIcon, {
+                        icon: free_solid_svg_icons_namespaceObject.faArrowUp
+                    }),
+                    " ",
+                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        children: "Rp. 300.000,00"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (BaseLayout_module_default()).transactionIn,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome_namespaceObject.FontAwesomeIcon, {
+                        icon: free_solid_svg_icons_namespaceObject.faArrowDown
+                    }),
+                    " ",
+                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        children: "Rp. 29.000,00"
+                    })
+                ]
+            })
+        ]
+    }));
+};
+
+// EXTERNAL MODULE: ./items/FullScreen.jsx
+var FullScreen = __webpack_require__(536);
+// EXTERNAL MODULE: ./scripts/reducers/mainAppSlice.js
+var mainAppSlice = __webpack_require__(174);
+;// CONCATENATED MODULE: ./components/base/SideBar.jsx
+
+
+
+
+
+
+
+function NavSelect({ icon , label , target  }) {
+    const dispatch = (0,external_react_redux_.useDispatch)();
+    const currentActiveComponent = (0,external_react_redux_.useSelector)((state)=>state.mainApp.component
+    );
+    const checkIfValid = ()=>{
+        // Jika komponen utama yang akan di-update sama dengan komponen
+        // utama yang sudah di tampilkan sebelumnya, maka event pada react-redux
+        // tidak akan di panggil
+        if (currentActiveComponent === target) {
+            return;
+        }
+        dispatch((0,mainAppSlice/* changeComponent */.tv)(target));
+    };
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (BaseLayout_module_default()).sidenavSelect,
+        onClick: checkIfValid,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome_namespaceObject.FontAwesomeIcon, {
+                style: {
+                    marginRight: '1rem'
+                },
+                icon: icon
+            }),
+            " ",
+            label
+        ]
+    }));
+}
+function SideBar() {
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (BaseLayout_module_default()).sideContainer,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                children: "Navigasi"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(NavSelect, {
+                        icon: free_solid_svg_icons_namespaceObject.faCashRegister,
+                        label: "Mode Kasir",
+                        target: "cashier_confirmation"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(NavSelect, {
+                        icon: free_solid_svg_icons_namespaceObject.faBoxes,
+                        label: "Stok Barang",
+                        target: "stocks"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(NavSelect, {
+                        icon: free_solid_svg_icons_namespaceObject.faHistory,
+                        label: "Histori Transaksi",
+                        target: "history"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(NavSelect, {
+                        icon: free_solid_svg_icons_namespaceObject.faFileMedicalAlt,
+                        label: "Laporan",
+                        target: "reports"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(NavSelect, {
+                        icon: free_solid_svg_icons_namespaceObject.faSync,
+                        label: "Info",
+                        target: "app_info"
+                    })
+                ]
+            })
+        ]
+    }));
+};
+
+;// CONCATENATED MODULE: ./components/main/CashierConfirmation.jsx
+function CashierConfirmation() {
+    return "Confirmation";
+};
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+// EXTERNAL MODULE: ./scripts/reducers/toastSlice.js
+var toastSlice = __webpack_require__(867);
+// EXTERNAL MODULE: ./components/main/ApplicationInfo.module.css
+var ApplicationInfo_module = __webpack_require__(166);
+var ApplicationInfo_module_default = /*#__PURE__*/__webpack_require__.n(ApplicationInfo_module);
+;// CONCATENATED MODULE: ./components/main/ApplicationInfo.jsx
+
+
+
+// import { ipcRenderer } from 'electron';
+
+
+
+
+function ApplicationInfo() {
+    const dispatch = (0,external_react_redux_.useDispatch)();
+    const wsMessage = (0,external_react_redux_.useSelector)((state)=>state.app.wsMessage
+    );
+    const ws = (0,external_react_redux_.useSelector)((state)=>state.app.ws
+    );
+    const { 0: isUpdateEvent , 1: setUpdate  } = (0,external_react_.useState)(false);
+    const checkForUpdates = ()=>{
+        if (!ws) {
+            console.log('ws');
+            return;
+        }
+        ws.send(JSON.stringify({
+            action: 'check-update'
+        }));
+    };
+    const downloadUpdate = ()=>{
+        if (!ws) {
+            console.log('ws');
+            return;
+        }
+        ws.send(JSON.stringify({
+            action: 'download-update'
+        }));
+    };
+    const installUpdate = ()=>{
+        if (!ws) {
+            console.log('ws');
+            return;
+        }
+        ws.send(JSON.stringify({
+            action: 'install-update'
+        }));
+    };
+    (0,external_react_.useEffect)(()=>{
+        if (!wsMessage) {
+            return;
+        }
+        switch(wsMessage.action){
+            case 'update-available':
+                setUpdate('available');
+                break;
+            case 'update-downloaded':
+                setUpdate('downloaded');
+                break;
+        }
+    });
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "mainAppFullSize",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (ApplicationInfo_module_default()).updateContainer,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (ApplicationInfo_module_default()).updateInfo,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (ApplicationInfo_module_default()).updateIcon,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome_namespaceObject.FontAwesomeIcon, {
+                                    icon: free_solid_svg_icons_namespaceObject.faSync
+                                })
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (ApplicationInfo_module_default()).updateTitle,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                        style: {
+                                            margin: 0,
+                                            padding: 0
+                                        },
+                                        children: "Update"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: (ApplicationInfo_module_default()).updateProgress,
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: (ApplicationInfo_module_default()).updateProgressUI,
+                                            children: "\xa0"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        style: {
+                                            fontSize: '13px',
+                                            color: 'grey'
+                                        },
+                                        children: "Terakhir dicek: kemarin"
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (ApplicationInfo_module_default()).updateAction,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            className: (ApplicationInfo_module_default()).updateButton,
+                            onClick: checkForUpdates,
+                            children: "Cek Update"
+                        })
+                    })
+                ]
+            }),
+            isUpdateEvent ? /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (ApplicationInfo_module_default()).updateReady,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
+                    children: [
+                        "Update tersedia ",
+                        isUpdateEvent === 'available' ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            onClick: downloadUpdate,
+                            children: "update sekarang"
+                        }) : isUpdateEvent === 'downloaded' ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            onClick: installUpdate,
+                            children: "install sekarang"
+                        }) : null
+                    ]
+                })
+            }) : null
+        ]
+    }));
+};
+
+;// CONCATENATED MODULE: ./components/base/BaseLayout.jsx
+
+
+
+
+
+
+
+
+
+function Stocks() {
+    return "Stock";
+}
+function TransactionHistory() {
+    return "History";
+}
+function DefaultMainPage() {
+    // const message = useSelector((state) => state.app.wsMessage);
+    // useEffect(() => {
+    //     alert(JSON.stringify(message));
+    // })
+    return "ME";
+}
+function BaseLayout() {
+    const selectedPage = (0,external_react_redux_.useSelector)((state)=>state.mainApp.component
+    );
+    let ActivePage = DefaultMainPage;
+    // Memastikan komponen utama yang dipilih ada dalam salah satu
+    // pilihan komponen
+    switch(selectedPage){
+        case 'cashier_confirmation':
+            ActivePage = CashierConfirmation;
+            break;
+        case 'stocks':
+            ActivePage = Stocks;
+            break;
+        case 'history':
+            ActivePage = TransactionHistory;
+            break;
+        case 'app_info':
+            ActivePage = ApplicationInfo;
+            break;
+    }
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(FullScreen/* default */.Z, {
+        className: (BaseLayout_module_default()).baseLayout,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(SideBar, {
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (BaseLayout_module_default()).mainContainer,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(TransactionDay, {
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (BaseLayout_module_default()).navigationDisplay,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(ActivePage, {
+                        })
+                    })
+                ]
+            })
+        ]
+    }));
+};
+
+;// CONCATENATED MODULE: ./pages/index.js
+
+
+async function getServerSideProps() {
+    const fs = __webpack_require__(292);
+    const electronIsDev = __webpack_require__(1);
+    const { join: pathJoin  } = __webpack_require__(17);
+    let ports = {
+    };
+    let portsPath = pathJoin(__dirname, '../../../../../../ports.json');
+    if (electronIsDev) {
+        portsPath = pathJoin(__dirname, '../ports.json');
+    }
+    try {
+        ports = JSON.parse((await fs.readFile(portsPath)).toString());
+    } catch (e) {
+        console.log('Client error');
+        throw e;
+    }
+    return {
+        props: {
+            __application_ports: ports
+        }
+    };
+}
+function Home() {
+    return(/*#__PURE__*/ jsx_runtime_.jsx(BaseLayout, {
+    }));
+};
+
 
 /***/ }),
 
-/***/ "./components/base/SideBar.jsx":
-/*!*************************************!*\
-  !*** ./components/base/SideBar.jsx ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SideBar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"@fortawesome/free-solid-svg-icons\");\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"@fortawesome/react-fontawesome\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _scripts_reducers_mainAppSlice__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../scripts/reducers/mainAppSlice */ \"./scripts/reducers/mainAppSlice.js\");\n/* harmony import */ var _BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./BaseLayout.module.css */ \"./components/base/BaseLayout.module.css\");\n/* harmony import */ var _BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\nfunction NavSelect({ icon , label , target  }) {\n    const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_3__.useDispatch)();\n    const currentActiveComponent = (0,react_redux__WEBPACK_IMPORTED_MODULE_3__.useSelector)((state)=>state.mainApp.component\n    );\n    const checkIfValid = ()=>{\n        // Jika komponen utama yang akan di-update sama dengan komponen\n        // utama yang sudah di tampilkan sebelumnya, maka event pada react-redux\n        // tidak akan di panggil\n        if (currentActiveComponent === target) {\n            return;\n        }\n        dispatch((0,_scripts_reducers_mainAppSlice__WEBPACK_IMPORTED_MODULE_4__.changeComponent)(target));\n    };\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_5___default().sidenavSelect),\n        onClick: checkIfValid,\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n            lineNumber: 23,\n            columnNumber: 9\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {\n                style: {\n                    marginRight: '1rem'\n                },\n                icon: icon,\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                    lineNumber: 24,\n                    columnNumber: 13\n                },\n                __self: this\n            }),\n            \" \",\n            label\n        ]\n    }));\n}\nfunction SideBar() {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_5___default().sideContainer),\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n            lineNumber: 31,\n            columnNumber: 9\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h2\", {\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                    lineNumber: 32,\n                    columnNumber: 13\n                },\n                __self: this,\n                children: \"Navigasi\"\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                    lineNumber: 33,\n                    columnNumber: 13\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(NavSelect, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faCashRegister,\n                        label: \"Mode Kasir\",\n                        target: \"cashier_confirmation\",\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                            lineNumber: 34,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(NavSelect, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faBoxes,\n                        label: \"Stok Barang\",\n                        target: \"stocks\",\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                            lineNumber: 35,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(NavSelect, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faHistory,\n                        label: \"Histori Transaksi\",\n                        target: \"history\",\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                            lineNumber: 36,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(NavSelect, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faFileMedicalAlt,\n                        label: \"Laporan\",\n                        target: \"reports\",\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                            lineNumber: 37,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(NavSelect, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faSync,\n                        label: \"Info\",\n                        target: \"app_info\",\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\SideBar.jsx\",\n                            lineNumber: 38,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    })\n                ]\n            })\n        ]\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2Jhc2UvU2lkZUJhci5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUEySTtBQUMzRTtBQUN2QjtBQUNBO0FBQzRCO0FBQ3pCO1NBRW5DWSxTQUFTLENBQUMsQ0FBQyxDQUFDQyxJQUFJLEdBQUVDLEtBQUssR0FBRUMsTUFBTSxFQUFDLENBQUMsRUFBRSxDQUFDO0lBQ3pDLEtBQUssQ0FBQ0MsUUFBUSxHQUFHUCx3REFBVztJQUM1QixLQUFLLENBQUNRLHNCQUFzQixHQUFHVCx3REFBVyxFQUFFVSxLQUFLLEdBQUtBLEtBQUssQ0FBQ0MsT0FBTyxDQUFDQyxTQUFTOztJQUM3RSxLQUFLLENBQUNDLFlBQVksT0FBUyxDQUFDO1FBQ3hCLEVBQStEO1FBQy9ELEVBQXdFO1FBQ3hFLEVBQXdCO1FBQ3hCLEVBQUUsRUFBRUosc0JBQXNCLEtBQUtGLE1BQU0sRUFBRSxDQUFDO1lBQ3BDLE1BQU07UUFDVixDQUFDO1FBRURDLFFBQVEsQ0FBQ04sK0VBQWUsQ0FBQ0ssTUFBTTtJQUNuQyxDQUFDO0lBRUQsTUFBTSx1RUFDRE8sQ0FBRztRQUFDQyxTQUFTLEVBQUVaLDZFQUFvQjtRQUFFYyxPQUFPLEVBQUVKLFlBQVk7Ozs7Ozs7O2lGQUN0RGQsMkVBQWU7Z0JBQUNtQixLQUFLLEVBQUUsQ0FBQztvQkFBQ0MsV0FBVyxFQUFFLENBQU07Z0JBQUMsQ0FBQztnQkFBRWQsSUFBSSxFQUFFQSxJQUFJOzs7Ozs7OztZQUFJLENBQUM7WUFBQ0MsS0FBSzs7O0FBR2xGLENBQUM7QUFFYyxRQUFRLENBQUNjLE9BQU8sR0FBRyxDQUFDO0lBQy9CLE1BQU0sdUVBQ0ROLENBQUc7UUFBQ0MsU0FBUyxFQUFFWiw2RUFBb0I7Ozs7Ozs7O2lGQUMvQm1CLENBQUU7Ozs7Ozs7MEJBQUMsQ0FBUTs7a0ZBQ1hSLENBQUc7Ozs7Ozs7O3lGQUNDVixTQUFTO3dCQUFDQyxJQUFJLEVBQUVaLDZFQUFjO3dCQUFFYSxLQUFLLEVBQUMsQ0FBWTt3QkFBQ0MsTUFBTSxFQUFDLENBQXNCOzs7Ozs7Ozt5RkFDaEZILFNBQVM7d0JBQUNDLElBQUksRUFBRWIsc0VBQU87d0JBQUVjLEtBQUssRUFBQyxDQUFhO3dCQUFDQyxNQUFNLEVBQUMsQ0FBUTs7Ozs7Ozs7eUZBQzVESCxTQUFTO3dCQUFDQyxJQUFJLEVBQUVWLHdFQUFTO3dCQUFFVyxLQUFLLEVBQUMsQ0FBbUI7d0JBQUNDLE1BQU0sRUFBQyxDQUFTOzs7Ozs7Ozt5RkFDckVILFNBQVM7d0JBQUNDLElBQUksRUFBRVgsK0VBQWdCO3dCQUFFWSxLQUFLLEVBQUMsQ0FBUzt3QkFBQ0MsTUFBTSxFQUFDLENBQVM7Ozs7Ozs7O3lGQUNsRUgsU0FBUzt3QkFBQ0MsSUFBSSxFQUFFUCxxRUFBTTt3QkFBRVEsS0FBSyxFQUFDLENBQU07d0JBQUNDLE1BQU0sRUFBQyxDQUFVOzs7Ozs7Ozs7Ozs7QUFJdkUsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2NvbXBvbmVudHMvYmFzZS9TaWRlQmFyLmpzeD9mYjcyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGZhQm94ZXMsIGZhQ2FzaFJlZ2lzdGVyLCBmYUZpbGVNZWRpY2FsQWx0LCBmYUhpc3RvcnksIGZhTW9uZXlCaWxsLCBmYU1vbmV5Q2hlY2ssIGZhU3luYyB9IGZyb20gJ0Bmb3J0YXdlc29tZS9mcmVlLXNvbGlkLXN2Zy1pY29ucyc7XHJcbmltcG9ydCB7IEZvbnRBd2Vzb21lSWNvbiB9IGZyb20gJ0Bmb3J0YXdlc29tZS9yZWFjdC1mb250YXdlc29tZSc7XHJcbmltcG9ydCB7IHVzZVNlbGVjdG9yIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xyXG5pbXBvcnQgeyB1c2VEaXNwYXRjaCB9IGZyb20gJ3JlYWN0LXJlZHV4JztcclxuaW1wb3J0IHsgY2hhbmdlQ29tcG9uZW50IH0gZnJvbSAnLi4vLi4vc2NyaXB0cy9yZWR1Y2Vycy9tYWluQXBwU2xpY2UnO1xyXG5pbXBvcnQgc3R5bGVzIGZyb20gJy4vQmFzZUxheW91dC5tb2R1bGUuY3NzJztcclxuXHJcbmZ1bmN0aW9uIE5hdlNlbGVjdCh7IGljb24sIGxhYmVsLCB0YXJnZXQgfSkge1xyXG4gICAgY29uc3QgZGlzcGF0Y2ggPSB1c2VEaXNwYXRjaCgpO1xyXG4gICAgY29uc3QgY3VycmVudEFjdGl2ZUNvbXBvbmVudCA9IHVzZVNlbGVjdG9yKChzdGF0ZSkgPT4gc3RhdGUubWFpbkFwcC5jb21wb25lbnQpO1xyXG4gICAgY29uc3QgY2hlY2tJZlZhbGlkID0gKCkgPT4ge1xyXG4gICAgICAgIC8vIEppa2Ega29tcG9uZW4gdXRhbWEgeWFuZyBha2FuIGRpLXVwZGF0ZSBzYW1hIGRlbmdhbiBrb21wb25lblxyXG4gICAgICAgIC8vIHV0YW1hIHlhbmcgc3VkYWggZGkgdGFtcGlsa2FuIHNlYmVsdW1ueWEsIG1ha2EgZXZlbnQgcGFkYSByZWFjdC1yZWR1eFxyXG4gICAgICAgIC8vIHRpZGFrIGFrYW4gZGkgcGFuZ2dpbFxyXG4gICAgICAgIGlmIChjdXJyZW50QWN0aXZlQ29tcG9uZW50ID09PSB0YXJnZXQpIHtcclxuICAgICAgICAgICAgcmV0dXJuO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgZGlzcGF0Y2goY2hhbmdlQ29tcG9uZW50KHRhcmdldCkpXHJcbiAgICB9XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnNpZGVuYXZTZWxlY3R9IG9uQ2xpY2s9e2NoZWNrSWZWYWxpZH0+XHJcbiAgICAgICAgICAgIDxGb250QXdlc29tZUljb24gc3R5bGU9e3sgbWFyZ2luUmlnaHQ6ICcxcmVtJyB9fSBpY29uPXtpY29ufSAvPiB7bGFiZWx9XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNpZGVCYXIoKSB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuc2lkZUNvbnRhaW5lcn0+XHJcbiAgICAgICAgICAgIDxoMj5OYXZpZ2FzaTwvaDI+XHJcbiAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgICA8TmF2U2VsZWN0IGljb249e2ZhQ2FzaFJlZ2lzdGVyfSBsYWJlbD1cIk1vZGUgS2FzaXJcIiB0YXJnZXQ9XCJjYXNoaWVyX2NvbmZpcm1hdGlvblwiIC8+XHJcbiAgICAgICAgICAgICAgICA8TmF2U2VsZWN0IGljb249e2ZhQm94ZXN9IGxhYmVsPVwiU3RvayBCYXJhbmdcIiB0YXJnZXQ9XCJzdG9ja3NcIiAvPlxyXG4gICAgICAgICAgICAgICAgPE5hdlNlbGVjdCBpY29uPXtmYUhpc3Rvcnl9IGxhYmVsPVwiSGlzdG9yaSBUcmFuc2Frc2lcIiB0YXJnZXQ9XCJoaXN0b3J5XCIgLz5cclxuICAgICAgICAgICAgICAgIDxOYXZTZWxlY3QgaWNvbj17ZmFGaWxlTWVkaWNhbEFsdH0gbGFiZWw9XCJMYXBvcmFuXCIgdGFyZ2V0PVwicmVwb3J0c1wiIC8+XHJcbiAgICAgICAgICAgICAgICA8TmF2U2VsZWN0IGljb249e2ZhU3luY30gbGFiZWw9XCJJbmZvXCIgdGFyZ2V0PVwiYXBwX2luZm9cIiAvPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufSJdLCJuYW1lcyI6WyJmYUJveGVzIiwiZmFDYXNoUmVnaXN0ZXIiLCJmYUZpbGVNZWRpY2FsQWx0IiwiZmFIaXN0b3J5IiwiZmFNb25leUJpbGwiLCJmYU1vbmV5Q2hlY2siLCJmYVN5bmMiLCJGb250QXdlc29tZUljb24iLCJ1c2VTZWxlY3RvciIsInVzZURpc3BhdGNoIiwiY2hhbmdlQ29tcG9uZW50Iiwic3R5bGVzIiwiTmF2U2VsZWN0IiwiaWNvbiIsImxhYmVsIiwidGFyZ2V0IiwiZGlzcGF0Y2giLCJjdXJyZW50QWN0aXZlQ29tcG9uZW50Iiwic3RhdGUiLCJtYWluQXBwIiwiY29tcG9uZW50IiwiY2hlY2tJZlZhbGlkIiwiZGl2IiwiY2xhc3NOYW1lIiwic2lkZW5hdlNlbGVjdCIsIm9uQ2xpY2siLCJzdHlsZSIsIm1hcmdpblJpZ2h0IiwiU2lkZUJhciIsInNpZGVDb250YWluZXIiLCJoMiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/base/SideBar.jsx\n");
-
-/***/ }),
-
-/***/ "./components/base/TransactionDay.jsx":
-/*!********************************************!*\
-  !*** ./components/base/TransactionDay.jsx ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TransactionDay)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"@fortawesome/react-fontawesome\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"@fortawesome/free-solid-svg-icons\");\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BaseLayout.module.css */ \"./components/base/BaseLayout.module.css\");\n/* harmony import */ var _BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction TransactionDay() {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_3___default().transactionHistoryContainer),\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n            lineNumber: 7,\n            columnNumber: 9\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_3___default().transactionOut),\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n                    lineNumber: 8,\n                    columnNumber: 13\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faArrowUp,\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n                            lineNumber: 9,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    \" \",\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n                            lineNumber: 9,\n                            columnNumber: 54\n                        },\n                        __self: this,\n                        children: \"Rp. 300.000,00\"\n                    })\n                ]\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                className: (_BaseLayout_module_css__WEBPACK_IMPORTED_MODULE_3___default().transactionIn),\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n                    lineNumber: 11,\n                    columnNumber: 13\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faArrowDown,\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n                            lineNumber: 12,\n                            columnNumber: 17\n                        },\n                        __self: this\n                    }),\n                    \" \",\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\base\\\\TransactionDay.jsx\",\n                            lineNumber: 12,\n                            columnNumber: 56\n                        },\n                        __self: this,\n                        children: \"Rp. 29.000,00\"\n                    })\n                ]\n            })\n        ]\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2Jhc2UvVHJhbnNhY3Rpb25EYXkuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBZ0U7QUFDVTtBQUM5QjtBQUU3QixRQUFRLENBQUNJLGNBQWMsR0FBRyxDQUFDO0lBQ3RDLE1BQU0sdUVBQ0RDLENBQUc7UUFBQ0MsU0FBUyxFQUFFSCwyRkFBa0M7Ozs7Ozs7O2tGQUM3Q0UsQ0FBRztnQkFBQ0MsU0FBUyxFQUFFSCw4RUFBcUI7Ozs7Ozs7O3lGQUNoQ0gsMkVBQWU7d0JBQUNTLElBQUksRUFBRVAsd0VBQVM7Ozs7Ozs7O29CQUFJLENBQUM7eUZBQUNRLENBQUk7Ozs7Ozs7a0NBQUMsQ0FBYzs7OztrRkFFNURMLENBQUc7Z0JBQUNDLFNBQVMsRUFBRUgsNkVBQW9COzs7Ozs7Ozt5RkFDL0JILDJFQUFlO3dCQUFDUyxJQUFJLEVBQUVSLDBFQUFXOzs7Ozs7OztvQkFBSSxDQUFDO3lGQUFDUyxDQUFJOzs7Ozs7O2tDQUFDLENBQWE7Ozs7OztBQUkxRSxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vY29tcG9uZW50cy9iYXNlL1RyYW5zYWN0aW9uRGF5LmpzeD8wY2NlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEZvbnRBd2Vzb21lSWNvbiB9IGZyb20gJ0Bmb3J0YXdlc29tZS9yZWFjdC1mb250YXdlc29tZSc7XHJcbmltcG9ydCB7IGZhQXJyb3dEb3duLCBmYUFycm93VXAgfSBmcm9tICdAZm9ydGF3ZXNvbWUvZnJlZS1zb2xpZC1zdmctaWNvbnMnO1xyXG5pbXBvcnQgc3R5bGVzIGZyb20gJy4vQmFzZUxheW91dC5tb2R1bGUuY3NzJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFRyYW5zYWN0aW9uRGF5KCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnRyYW5zYWN0aW9uSGlzdG9yeUNvbnRhaW5lcn0+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMudHJhbnNhY3Rpb25PdXR9PlxyXG4gICAgICAgICAgICAgICAgPEZvbnRBd2Vzb21lSWNvbiBpY29uPXtmYUFycm93VXB9IC8+IDxzcGFuPlJwLiAzMDAuMDAwLDAwPC9zcGFuPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy50cmFuc2FjdGlvbklufT5cclxuICAgICAgICAgICAgICAgIDxGb250QXdlc29tZUljb24gaWNvbj17ZmFBcnJvd0Rvd259IC8+IDxzcGFuPlJwLiAyOS4wMDAsMDA8L3NwYW4+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufSJdLCJuYW1lcyI6WyJGb250QXdlc29tZUljb24iLCJmYUFycm93RG93biIsImZhQXJyb3dVcCIsInN0eWxlcyIsIlRyYW5zYWN0aW9uRGF5IiwiZGl2IiwiY2xhc3NOYW1lIiwidHJhbnNhY3Rpb25IaXN0b3J5Q29udGFpbmVyIiwidHJhbnNhY3Rpb25PdXQiLCJpY29uIiwic3BhbiIsInRyYW5zYWN0aW9uSW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/base/TransactionDay.jsx\n");
-
-/***/ }),
-
-/***/ "./components/main/ApplicationInfo.jsx":
-/*!*********************************************!*\
-  !*** ./components/main/ApplicationInfo.jsx ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ApplicationInfo)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"@fortawesome/free-solid-svg-icons\");\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"@fortawesome/react-fontawesome\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _scripts_reducers_toastSlice__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../scripts/reducers/toastSlice */ \"./scripts/reducers/toastSlice.js\");\n/* harmony import */ var _ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ApplicationInfo.module.css */ \"./components/main/ApplicationInfo.module.css\");\n/* harmony import */ var _ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n// import { ipcRenderer } from 'electron';\n\n\n\n\nfunction ApplicationInfo() {\n    const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_4__.useDispatch)();\n    const wsMessage = (0,react_redux__WEBPACK_IMPORTED_MODULE_4__.useSelector)((state)=>state.app.wsMessage\n    );\n    const ws = (0,react_redux__WEBPACK_IMPORTED_MODULE_4__.useSelector)((state)=>state.app.ws\n    );\n    const { 0: isUpdateEvent , 1: setUpdate  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);\n    const checkForUpdates = ()=>{\n        if (!ws) {\n            console.log('ws');\n            return;\n        }\n        ws.send(JSON.stringify({\n            action: 'check-update'\n        }));\n    };\n    const downloadUpdate = ()=>{\n        if (!ws) {\n            console.log('ws');\n            return;\n        }\n        ws.send(JSON.stringify({\n            action: 'download-update'\n        }));\n    };\n    const installUpdate = ()=>{\n        if (!ws) {\n            console.log('ws');\n            return;\n        }\n        ws.send(JSON.stringify({\n            action: 'install-update'\n        }));\n    };\n    (0,react__WEBPACK_IMPORTED_MODULE_3__.useEffect)(()=>{\n        if (!wsMessage) {\n            return;\n        }\n        switch(wsMessage.action){\n            case 'update-available':\n                setUpdate('available');\n                break;\n            case 'update-downloaded':\n                setUpdate('downloaded');\n                break;\n        }\n    });\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: \"mainAppFullSize\",\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n            lineNumber: 54,\n            columnNumber: 9\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateContainer),\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                    lineNumber: 55,\n                    columnNumber: 13\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                        className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateInfo),\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                            lineNumber: 56,\n                            columnNumber: 17\n                        },\n                        __self: this,\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                                className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateIcon),\n                                __source: {\n                                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                    lineNumber: 57,\n                                    columnNumber: 21\n                                },\n                                __self: this,\n                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {\n                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faSync,\n                                    __source: {\n                                        fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                        lineNumber: 58,\n                                        columnNumber: 25\n                                    },\n                                    __self: this\n                                })\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                                className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateTitle),\n                                __source: {\n                                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                    lineNumber: 60,\n                                    columnNumber: 21\n                                },\n                                __self: this,\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h2\", {\n                                        style: {\n                                            margin: 0,\n                                            padding: 0\n                                        },\n                                        __source: {\n                                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                            lineNumber: 61,\n                                            columnNumber: 25\n                                        },\n                                        __self: this,\n                                        children: \"Update\"\n                                    }),\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                                        className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateProgress),\n                                        __source: {\n                                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                            lineNumber: 62,\n                                            columnNumber: 25\n                                        },\n                                        __self: this,\n                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                                            className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateProgressUI),\n                                            __source: {\n                                                fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                                lineNumber: 63,\n                                                columnNumber: 29\n                                            },\n                                            __self: this,\n                                            children: \"\\xa0\"\n                                        })\n                                    }),\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                        style: {\n                                            fontSize: '13px',\n                                            color: 'grey'\n                                        },\n                                        __source: {\n                                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                            lineNumber: 65,\n                                            columnNumber: 25\n                                        },\n                                        __self: this,\n                                        children: \"Terakhir dicek: kemarin\"\n                                    })\n                                ]\n                            })\n                        ]\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                        className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateAction),\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                            lineNumber: 68,\n                            columnNumber: 17\n                        },\n                        __self: this,\n                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"button\", {\n                            className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateButton),\n                            onClick: checkForUpdates,\n                            __source: {\n                                fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                lineNumber: 69,\n                                columnNumber: 21\n                            },\n                            __self: this,\n                            children: \"Cek Update\"\n                        })\n                    })\n                ]\n            }),\n            isUpdateEvent ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                className: (_ApplicationInfo_module_css__WEBPACK_IMPORTED_MODULE_6___default().updateReady),\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                    lineNumber: 72,\n                    columnNumber: 31\n                },\n                __self: this,\n                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"h3\", {\n                    __source: {\n                        fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                        lineNumber: 73,\n                        columnNumber: 17\n                    },\n                    __self: this,\n                    children: [\n                        \"Update tersedia \",\n                        isUpdateEvent === 'available' ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"button\", {\n                            onClick: downloadUpdate,\n                            __source: {\n                                fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                lineNumber: 73,\n                                columnNumber: 71\n                            },\n                            __self: this,\n                            children: \"update sekarang\"\n                        }) : isUpdateEvent === 'downloaded' ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"button\", {\n                            onClick: installUpdate,\n                            __source: {\n                                fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\components\\\\main\\\\ApplicationInfo.jsx\",\n                                lineNumber: 73,\n                                columnNumber: 164\n                            },\n                            __self: this,\n                            children: \"install sekarang\"\n                        }) : null\n                    ]\n                })\n            }) : null\n        ]\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL21haW4vQXBwbGljYXRpb25JbmZvLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBMEQ7QUFDTTtBQUNoRSxFQUEwQztBQUNDO0FBQ1c7QUFDRTtBQUNQO0FBRWxDLFFBQVEsQ0FBQ1EsZUFBZSxHQUFHLENBQUM7SUFDdkMsS0FBSyxDQUFDQyxRQUFRLEdBQUdKLHdEQUFXO0lBQzVCLEtBQUssQ0FBQ0ssU0FBUyxHQUFHTix3REFBVyxFQUFFTyxLQUFLLEdBQUtBLEtBQUssQ0FBQ0MsR0FBRyxDQUFDRixTQUFTOztJQUM1RCxLQUFLLENBQUNHLEVBQUUsR0FBR1Qsd0RBQVcsRUFBRU8sS0FBSyxHQUFLQSxLQUFLLENBQUNDLEdBQUcsQ0FBQ0MsRUFBRTs7SUFDOUMsS0FBSyxNQUFHQyxhQUFhLE1BQUVDLFNBQVMsTUFBS1osK0NBQVEsQ0FBQyxLQUFLO0lBQ25ELEtBQUssQ0FBQ2EsZUFBZSxPQUFTLENBQUM7UUFDM0IsRUFBRSxHQUFHSCxFQUFFLEVBQUUsQ0FBQztZQUNOSSxPQUFPLENBQUNDLEdBQUcsQ0FBQyxDQUFJO1lBQ2hCLE1BQU07UUFDVixDQUFDO1FBRURMLEVBQUUsQ0FBQ00sSUFBSSxDQUFDQyxJQUFJLENBQUNDLFNBQVMsQ0FBQyxDQUFDO1lBQUNDLE1BQU0sRUFBRSxDQUFjO1FBQUMsQ0FBQztJQUNyRCxDQUFDO0lBQ0QsS0FBSyxDQUFDQyxjQUFjLE9BQVMsQ0FBQztRQUMxQixFQUFFLEdBQUdWLEVBQUUsRUFBRSxDQUFDO1lBQ05JLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDLENBQUk7WUFDaEIsTUFBTTtRQUNWLENBQUM7UUFFREwsRUFBRSxDQUFDTSxJQUFJLENBQUNDLElBQUksQ0FBQ0MsU0FBUyxDQUFDLENBQUM7WUFBQ0MsTUFBTSxFQUFFLENBQWlCO1FBQUMsQ0FBQztJQUN4RCxDQUFDO0lBQ0QsS0FBSyxDQUFDRSxhQUFhLE9BQVMsQ0FBQztRQUN6QixFQUFFLEdBQUdYLEVBQUUsRUFBRSxDQUFDO1lBQ05JLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDLENBQUk7WUFDaEIsTUFBTTtRQUNWLENBQUM7UUFFREwsRUFBRSxDQUFDTSxJQUFJLENBQUNDLElBQUksQ0FBQ0MsU0FBUyxDQUFDLENBQUM7WUFBQ0MsTUFBTSxFQUFFLENBQWdCO1FBQUMsQ0FBQztJQUN2RCxDQUFDO0lBRURwQixnREFBUyxLQUFPLENBQUM7UUFDYixFQUFFLEdBQUdRLFNBQVMsRUFBRSxDQUFDO1lBQ2IsTUFBTTtRQUNWLENBQUM7UUFFRCxNQUFNLENBQUVBLFNBQVMsQ0FBQ1ksTUFBTTtZQUNwQixJQUFJLENBQUMsQ0FBa0I7Z0JBQ25CUCxTQUFTLENBQUMsQ0FBVztnQkFDckIsS0FBSztZQUNULElBQUksQ0FBQyxDQUFtQjtnQkFDcEJBLFNBQVMsQ0FBQyxDQUFZO2dCQUN0QixLQUFLOztJQUVqQixDQUFDO0lBQ0QsTUFBTSx1RUFDRFUsQ0FBRztRQUFDQyxTQUFTLEVBQUMsQ0FBaUI7Ozs7Ozs7O2tGQUMzQkQsQ0FBRztnQkFBQ0MsU0FBUyxFQUFFbkIsb0ZBQXNCOzs7Ozs7OzswRkFDakNrQixDQUFHO3dCQUFDQyxTQUFTLEVBQUVuQiwrRUFBaUI7Ozs7Ozs7O2lHQUM1QmtCLENBQUc7Z0NBQUNDLFNBQVMsRUFBRW5CLCtFQUFpQjs7Ozs7OzsrR0FDNUJOLDJFQUFlO29DQUFDNkIsSUFBSSxFQUFFOUIscUVBQU07Ozs7Ozs7OztrR0FFaEN5QixDQUFHO2dDQUFDQyxTQUFTLEVBQUVuQixnRkFBa0I7Ozs7Ozs7O3lHQUM3QnlCLENBQUU7d0NBQUNDLEtBQUssRUFBRSxDQUFDOzRDQUFDQyxNQUFNLEVBQUUsQ0FBQzs0Q0FBRUMsT0FBTyxFQUFFLENBQUM7d0NBQUMsQ0FBQzs7Ozs7OztrREFBRSxDQUFNOzt5R0FDM0NWLENBQUc7d0NBQUNDLFNBQVMsRUFBRW5CLG1GQUFxQjs7Ozs7Ozt1SEFDaENrQixDQUFHOzRDQUFDQyxTQUFTLEVBQUVuQixxRkFBdUI7Ozs7Ozs7c0RBQUUsQ0FBTTs7O3lHQUVsRCtCLENBQUk7d0NBQUNMLEtBQUssRUFBRSxDQUFDOzRDQUFDTSxRQUFRLEVBQUUsQ0FBTTs0Q0FBRUMsS0FBSyxFQUFFLENBQU07d0NBQUMsQ0FBQzs7Ozs7OztrREFBRSxDQUF1Qjs7Ozs7O3lGQUdoRmYsQ0FBRzt3QkFBQ0MsU0FBUyxFQUFFbkIsaUZBQW1COzs7Ozs7O3VHQUM5Qm1DLENBQU07NEJBQUNoQixTQUFTLEVBQUVuQixpRkFBbUI7NEJBQUVxQyxPQUFPLEVBQUU1QixlQUFlOzs7Ozs7O3NDQUFFLENBQVU7Ozs7O1lBR2xGRixhQUFhLHdFQUFJVyxDQUFHO2dCQUFDQyxTQUFTLEVBQUVuQixnRkFBa0I7Ozs7Ozs7Z0dBQy9DdUMsQ0FBRTs7Ozs7Ozs7d0JBQUMsQ0FBZ0I7d0JBQUVoQyxhQUFhLEtBQUssQ0FBVyxrRkFBSTRCLENBQU07NEJBQUNFLE9BQU8sRUFBRXJCLGNBQWM7Ozs7Ozs7c0NBQUUsQ0FBZTs2QkFBWVQsYUFBYSxLQUFLLENBQVksbUZBQUk0QixDQUFNOzRCQUFDRSxPQUFPLEVBQUVwQixhQUFhOzs7Ozs7O3NDQUFFLENBQWdCOzZCQUFZLElBQUk7OztpQkFDOU0sSUFBSTs7O0FBR3pCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb21wb25lbnRzL21haW4vQXBwbGljYXRpb25JbmZvLmpzeD9iMmRjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGZhU3luYyB9IGZyb20gJ0Bmb3J0YXdlc29tZS9mcmVlLXNvbGlkLXN2Zy1pY29ucyc7XHJcbmltcG9ydCB7IEZvbnRBd2Vzb21lSWNvbiB9IGZyb20gJ0Bmb3J0YXdlc29tZS9yZWFjdC1mb250YXdlc29tZSc7XHJcbi8vIGltcG9ydCB7IGlwY1JlbmRlcmVyIH0gZnJvbSAnZWxlY3Ryb24nO1xyXG5pbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgeyB1c2VTZWxlY3RvciwgdXNlRGlzcGF0Y2ggfSBmcm9tICdyZWFjdC1yZWR1eCc7XHJcbmltcG9ydCB7IHNob3cgfSBmcm9tICcuLi8uLi9zY3JpcHRzL3JlZHVjZXJzL3RvYXN0U2xpY2UnO1xyXG5pbXBvcnQgc3R5bGVzIGZyb20gJy4vQXBwbGljYXRpb25JbmZvLm1vZHVsZS5jc3MnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQXBwbGljYXRpb25JbmZvKCkge1xyXG4gICAgY29uc3QgZGlzcGF0Y2ggPSB1c2VEaXNwYXRjaCgpO1xyXG4gICAgY29uc3Qgd3NNZXNzYWdlID0gdXNlU2VsZWN0b3IoKHN0YXRlKSA9PiBzdGF0ZS5hcHAud3NNZXNzYWdlKTtcclxuICAgIGNvbnN0IHdzID0gdXNlU2VsZWN0b3IoKHN0YXRlKSA9PiBzdGF0ZS5hcHAud3MpO1xyXG4gICAgY29uc3QgWyBpc1VwZGF0ZUV2ZW50LCBzZXRVcGRhdGUgXSA9IHVzZVN0YXRlKGZhbHNlKTtcclxuICAgIGNvbnN0IGNoZWNrRm9yVXBkYXRlcyA9ICgpID0+IHtcclxuICAgICAgICBpZiAoIXdzKSB7XHJcbiAgICAgICAgICAgIGNvbnNvbGUubG9nKCd3cycpO1xyXG4gICAgICAgICAgICByZXR1cm47XHJcbiAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgICAgIHdzLnNlbmQoSlNPTi5zdHJpbmdpZnkoeyBhY3Rpb246ICdjaGVjay11cGRhdGUnIH0pKTtcclxuICAgIH07XHJcbiAgICBjb25zdCBkb3dubG9hZFVwZGF0ZSA9ICgpID0+IHtcclxuICAgICAgICBpZiAoIXdzKSB7XHJcbiAgICAgICAgICAgIGNvbnNvbGUubG9nKCd3cycpO1xyXG4gICAgICAgICAgICByZXR1cm47XHJcbiAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgICAgIHdzLnNlbmQoSlNPTi5zdHJpbmdpZnkoeyBhY3Rpb246ICdkb3dubG9hZC11cGRhdGUnIH0pKTtcclxuICAgIH1cclxuICAgIGNvbnN0IGluc3RhbGxVcGRhdGUgPSAoKSA9PiB7XHJcbiAgICAgICAgaWYgKCF3cykge1xyXG4gICAgICAgICAgICBjb25zb2xlLmxvZygnd3MnKTtcclxuICAgICAgICAgICAgcmV0dXJuO1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICAgICB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgYWN0aW9uOiAnaW5zdGFsbC11cGRhdGUnIH0pKTtcclxuICAgIH1cclxuXHJcbiAgICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgICAgIGlmICghd3NNZXNzYWdlKSB7XHJcbiAgICAgICAgICAgIHJldHVybjtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIHN3aXRjaCAod3NNZXNzYWdlLmFjdGlvbikge1xyXG4gICAgICAgICAgICBjYXNlICd1cGRhdGUtYXZhaWxhYmxlJzpcclxuICAgICAgICAgICAgICAgIHNldFVwZGF0ZSgnYXZhaWxhYmxlJyk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSAndXBkYXRlLWRvd25sb2FkZWQnOlxyXG4gICAgICAgICAgICAgICAgc2V0VXBkYXRlKCdkb3dubG9hZGVkJyk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICB9XHJcbiAgICB9KTtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluQXBwRnVsbFNpemVcIj5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy51cGRhdGVDb250YWluZXJ9PlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy51cGRhdGVJbmZvfT5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnVwZGF0ZUljb259PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhU3luY30gLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnVwZGF0ZVRpdGxlfT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGgyIHN0eWxlPXt7IG1hcmdpbjogMCwgcGFkZGluZzogMCB9fT5VcGRhdGU8L2gyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnVwZGF0ZVByb2dyZXNzfT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMudXBkYXRlUHJvZ3Jlc3NVSX0+Jm5ic3A7PC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogJzEzcHgnLCBjb2xvcjogJ2dyZXknIH19PlRlcmFraGlyIGRpY2VrOiBrZW1hcmluPC9zcGFuPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnVwZGF0ZUFjdGlvbn0+XHJcbiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9e3N0eWxlcy51cGRhdGVCdXR0b259IG9uQ2xpY2s9e2NoZWNrRm9yVXBkYXRlc30+Q2VrIFVwZGF0ZTwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICB7IGlzVXBkYXRlRXZlbnQgPyA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnVwZGF0ZVJlYWR5fT5cclxuICAgICAgICAgICAgICAgIDxoMz5VcGRhdGUgdGVyc2VkaWEgeyBpc1VwZGF0ZUV2ZW50ID09PSAnYXZhaWxhYmxlJyA/IDxidXR0b24gb25DbGljaz17ZG93bmxvYWRVcGRhdGV9PnVwZGF0ZSBzZWthcmFuZzwvYnV0dG9uPiA6IGlzVXBkYXRlRXZlbnQgPT09ICdkb3dubG9hZGVkJyA/IDxidXR0b24gb25DbGljaz17aW5zdGFsbFVwZGF0ZX0+aW5zdGFsbCBzZWthcmFuZzwvYnV0dG9uPiA6IG51bGwgfTwvaDM+XHJcbiAgICAgICAgICAgIDwvZGl2PiA6IG51bGwgfVxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufSJdLCJuYW1lcyI6WyJmYVN5bmMiLCJGb250QXdlc29tZUljb24iLCJ1c2VFZmZlY3QiLCJ1c2VTdGF0ZSIsInVzZVNlbGVjdG9yIiwidXNlRGlzcGF0Y2giLCJzaG93Iiwic3R5bGVzIiwiQXBwbGljYXRpb25JbmZvIiwiZGlzcGF0Y2giLCJ3c01lc3NhZ2UiLCJzdGF0ZSIsImFwcCIsIndzIiwiaXNVcGRhdGVFdmVudCIsInNldFVwZGF0ZSIsImNoZWNrRm9yVXBkYXRlcyIsImNvbnNvbGUiLCJsb2ciLCJzZW5kIiwiSlNPTiIsInN0cmluZ2lmeSIsImFjdGlvbiIsImRvd25sb2FkVXBkYXRlIiwiaW5zdGFsbFVwZGF0ZSIsImRpdiIsImNsYXNzTmFtZSIsInVwZGF0ZUNvbnRhaW5lciIsInVwZGF0ZUluZm8iLCJ1cGRhdGVJY29uIiwiaWNvbiIsInVwZGF0ZVRpdGxlIiwiaDIiLCJzdHlsZSIsIm1hcmdpbiIsInBhZGRpbmciLCJ1cGRhdGVQcm9ncmVzcyIsInVwZGF0ZVByb2dyZXNzVUkiLCJzcGFuIiwiZm9udFNpemUiLCJjb2xvciIsInVwZGF0ZUFjdGlvbiIsImJ1dHRvbiIsInVwZGF0ZUJ1dHRvbiIsIm9uQ2xpY2siLCJ1cGRhdGVSZWFkeSIsImgzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/main/ApplicationInfo.jsx\n");
-
-/***/ }),
-
-/***/ "./components/main/CashierConfirmation.jsx":
-/*!*************************************************!*\
-  !*** ./components/main/CashierConfirmation.jsx ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CashierConfirmation)\n/* harmony export */ });\nfunction CashierConfirmation() {\n    return \"Confirmation\";\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL21haW4vQ2FzaGllckNvbmZpcm1hdGlvbi5qc3guanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFlLFFBQVEsQ0FBQ0EsbUJBQW1CLEdBQUcsQ0FBQztJQUMzQyxNQUFNLENBQUMsQ0FBYztBQUN6QixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vY29tcG9uZW50cy9tYWluL0Nhc2hpZXJDb25maXJtYXRpb24uanN4P2Q5NDAiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ2FzaGllckNvbmZpcm1hdGlvbigpIHtcclxuICAgIHJldHVybiBcIkNvbmZpcm1hdGlvblwiO1xyXG59Il0sIm5hbWVzIjpbIkNhc2hpZXJDb25maXJtYXRpb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/main/CashierConfirmation.jsx\n");
-
-/***/ }),
-
-/***/ "./items/FullScreen.jsx":
-/*!******************************!*\
-  !*** ./items/FullScreen.jsx ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ FullScreen)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FullScreen.module.css */ \"./items/FullScreen.module.css\");\n/* harmony import */ var _FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction FullScreen({ children , className ='' , centerPlace , ...props }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n        className: `${(_FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1___default().container)} ${centerPlace ? (_FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1___default().center) : ''} ${className}`,\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\items\\\\FullScreen.jsx\",\n            lineNumber: 5,\n            columnNumber: 9\n        },\n        __self: this,\n        children: children\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pdGVtcy9GdWxsU2NyZWVuLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBNEM7QUFFN0IsUUFBUSxDQUFDQyxVQUFVLENBQUMsQ0FBQyxDQUFDQyxRQUFRLEdBQUVDLFNBQVMsRUFBRyxDQUFFLElBQUVDLFdBQVcsTUFBS0MsS0FBSyxDQUFDLENBQUMsRUFBRSxDQUFDO0lBQ3JGLE1BQU0sc0VBQ0RDLENBQUc7UUFBQ0gsU0FBUyxLQUFLSCx5RUFBZ0IsQ0FBQyxDQUFDLEVBQUVJLFdBQVcsR0FBR0osc0VBQWEsR0FBRyxDQUFFLEVBQUMsQ0FBQyxFQUFFRyxTQUFTOzs7Ozs7O2tCQUMvRUQsUUFBUTs7QUFHckIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2l0ZW1zL0Z1bGxTY3JlZW4uanN4PzI2ZWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlcyBmcm9tICcuL0Z1bGxTY3JlZW4ubW9kdWxlLmNzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGdWxsU2NyZWVuKHsgY2hpbGRyZW4sIGNsYXNzTmFtZSA9ICcnLCBjZW50ZXJQbGFjZSwgLi4ucHJvcHMgfSkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YCR7c3R5bGVzLmNvbnRhaW5lcn0gJHtjZW50ZXJQbGFjZSA/IHN0eWxlcy5jZW50ZXIgOiAnJ30gJHtjbGFzc05hbWV9YH0+XHJcbiAgICAgICAgICAgIHtjaGlsZHJlbn1cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufSJdLCJuYW1lcyI6WyJzdHlsZXMiLCJGdWxsU2NyZWVuIiwiY2hpbGRyZW4iLCJjbGFzc05hbWUiLCJjZW50ZXJQbGFjZSIsInByb3BzIiwiZGl2IiwiY29udGFpbmVyIiwiY2VudGVyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./items/FullScreen.jsx\n");
-
-/***/ }),
-
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getServerSideProps\": () => (/* binding */ getServerSideProps),\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_base_BaseLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/base/BaseLayout */ \"./components/base/BaseLayout.jsx\");\n\n\nasync function getServerSideProps() {\n    const fs = __webpack_require__(/*! fs/promises */ \"fs/promises\");\n    const electronIsDev = __webpack_require__(/*! electron-is-dev */ \"electron-is-dev\");\n    const { join: pathJoin  } = __webpack_require__(/*! path */ \"path\");\n    let ports = {\n    };\n    let portsPath = pathJoin(__dirname, '../../../../../../ports.json');\n    if (electronIsDev) {\n        portsPath = pathJoin(__dirname, '../ports.json');\n    }\n    try {\n        ports = JSON.parse((await fs.readFile(portsPath)).toString());\n    } catch (e) {\n        console.log('Client error');\n        throw e;\n    }\n    return {\n        props: {\n            __application_ports: ports\n        }\n    };\n}\nfunction Home() {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_base_BaseLayout__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\pages\\\\index.js\",\n            lineNumber: 28,\n            columnNumber: 10\n        },\n        __self: this\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBc0Q7QUFFL0MsZUFBZUMsa0JBQWtCLEdBQUcsQ0FBQztJQUMxQyxLQUFLLENBQUNDLEVBQUUsR0FBR0MsbUJBQU8sQ0FBQyxnQ0FBYTtJQUNoQyxLQUFLLENBQUNDLGFBQWEsR0FBR0QsbUJBQU8sQ0FBQyx3Q0FBaUI7SUFDL0MsS0FBSyxDQUFDLENBQUMsQ0FBQ0UsSUFBSSxFQUFFQyxRQUFRLEVBQUMsQ0FBQyxHQUFHSCxtQkFBTyxDQUFDLGtCQUFNO0lBQ3pDLEdBQUcsQ0FBQ0ksS0FBSyxHQUFHLENBQUM7SUFBQSxDQUFDO0lBQ2QsR0FBRyxDQUFDQyxTQUFTLEdBQUdGLFFBQVEsQ0FBQ0csU0FBUyxFQUFFLENBQThCO0lBQ2xFLEVBQUUsRUFBRUwsYUFBYSxFQUFFLENBQUM7UUFDbEJJLFNBQVMsR0FBR0YsUUFBUSxDQUFDRyxTQUFTLEVBQUUsQ0FBZTtJQUNqRCxDQUFDO0lBRUQsR0FBRyxDQUFDLENBQUM7UUFDSEYsS0FBSyxHQUFHRyxJQUFJLENBQUNDLEtBQUssRUFBRSxLQUFLLENBQUNULEVBQUUsQ0FBQ1UsUUFBUSxDQUFDSixTQUFTLEdBQUdLLFFBQVE7SUFDNUQsQ0FBQyxDQUFDLEtBQUssRUFBRUMsQ0FBQyxFQUFFLENBQUM7UUFDWEMsT0FBTyxDQUFDQyxHQUFHLENBQUMsQ0FBYztRQUMxQixLQUFLLENBQUNGLENBQUM7SUFDVCxDQUFDO0lBRUQsTUFBTSxDQUFDLENBQUM7UUFDTkcsS0FBSyxFQUFFLENBQUM7WUFDTkMsbUJBQW1CLEVBQUVYLEtBQUs7UUFDNUIsQ0FBQztJQUNILENBQUM7QUFDSCxDQUFDO0FBRWMsUUFBUSxDQUFDWSxJQUFJLEdBQUcsQ0FBQztJQUM5QixNQUFNLHNFQUFFbkIsbUVBQVU7Ozs7Ozs7O0FBQ3BCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9pbmRleC5qcz9iZWU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBCYXNlTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvYmFzZS9CYXNlTGF5b3V0JztcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFNlcnZlclNpZGVQcm9wcygpIHtcbiAgY29uc3QgZnMgPSByZXF1aXJlKCdmcy9wcm9taXNlcycpO1xuICBjb25zdCBlbGVjdHJvbklzRGV2ID0gcmVxdWlyZSgnZWxlY3Ryb24taXMtZGV2Jyk7XG4gIGNvbnN0IHsgam9pbjogcGF0aEpvaW4gfSA9IHJlcXVpcmUoJ3BhdGgnKTtcbiAgbGV0IHBvcnRzID0ge307XG4gIGxldCBwb3J0c1BhdGggPSBwYXRoSm9pbihfX2Rpcm5hbWUsICcuLi8uLi8uLi8uLi8uLi8uLi9wb3J0cy5qc29uJyk7XG4gIGlmIChlbGVjdHJvbklzRGV2KSB7XG4gICAgcG9ydHNQYXRoID0gcGF0aEpvaW4oX19kaXJuYW1lLCAnLi4vcG9ydHMuanNvbicpO1xuICB9XG5cbiAgdHJ5IHtcbiAgICBwb3J0cyA9IEpTT04ucGFyc2UoKGF3YWl0IGZzLnJlYWRGaWxlKHBvcnRzUGF0aCkpLnRvU3RyaW5nKCkpO1xuICB9IGNhdGNoIChlKSB7XG4gICAgY29uc29sZS5sb2coJ0NsaWVudCBlcnJvcicpO1xuICAgIHRocm93IGU7XG4gIH1cblxuICByZXR1cm4ge1xuICAgIHByb3BzOiB7XG4gICAgICBfX2FwcGxpY2F0aW9uX3BvcnRzOiBwb3J0c1xuICAgIH1cbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xuICByZXR1cm4gPEJhc2VMYXlvdXQgLz47XG59XG4iXSwibmFtZXMiOlsiQmFzZUxheW91dCIsImdldFNlcnZlclNpZGVQcm9wcyIsImZzIiwicmVxdWlyZSIsImVsZWN0cm9uSXNEZXYiLCJqb2luIiwicGF0aEpvaW4iLCJwb3J0cyIsInBvcnRzUGF0aCIsIl9fZGlybmFtZSIsIkpTT04iLCJwYXJzZSIsInJlYWRGaWxlIiwidG9TdHJpbmciLCJlIiwiY29uc29sZSIsImxvZyIsInByb3BzIiwiX19hcHBsaWNhdGlvbl9wb3J0cyIsIkhvbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.js\n");
-
-/***/ }),
-
-/***/ "./scripts/reducers/mainAppSlice.js":
-/*!******************************************!*\
-  !*** ./scripts/reducers/mainAppSlice.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"mainAppSlice\": () => (/* binding */ mainAppSlice),\n/* harmony export */   \"changeComponent\": () => (/* binding */ changeComponent),\n/* harmony export */   \"reset\": () => (/* binding */ reset),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n\nconst mainAppSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n    name: 'mainApp',\n    initialState: {\n        prevComponent: '',\n        component: ''\n    },\n    reducers: {\n        changeComponent: (state, payload)=>{\n            state.prevComponent = state.component;\n            state.component = payload.payload;\n        },\n        reset: (state)=>{\n            state.component = '';\n        }\n    }\n});\nconst { changeComponent , reset  } = mainAppSlice.actions;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mainAppSlice.reducer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zY3JpcHRzL3JlZHVjZXJzL21haW5BcHBTbGljZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBOEM7QUFFdkMsS0FBSyxDQUFDQyxZQUFZLEdBQUdELDZEQUFXLENBQUMsQ0FBQztJQUNyQ0UsSUFBSSxFQUFFLENBQVM7SUFDZkMsWUFBWSxFQUFFLENBQUM7UUFDWEMsYUFBYSxFQUFFLENBQUU7UUFDakJDLFNBQVMsRUFBRSxDQUFFO0lBQ2pCLENBQUM7SUFDREMsUUFBUSxFQUFFLENBQUM7UUFDUEMsZUFBZSxHQUFHQyxLQUFLLEVBQUVDLE9BQU8sR0FBSyxDQUFDO1lBQ2xDRCxLQUFLLENBQUNKLGFBQWEsR0FBR0ksS0FBSyxDQUFDSCxTQUFTO1lBQ3JDRyxLQUFLLENBQUNILFNBQVMsR0FBR0ksT0FBTyxDQUFDQSxPQUFPO1FBQ3JDLENBQUM7UUFDREMsS0FBSyxHQUFHRixLQUFLLEdBQUssQ0FBQztZQUNmQSxLQUFLLENBQUNILFNBQVMsR0FBRyxDQUFFO1FBQ3hCLENBQUM7SUFDTCxDQUFDO0FBQ0wsQ0FBQztBQUVNLEtBQUssQ0FBQyxDQUFDLENBQUNFLGVBQWUsR0FBRUcsS0FBSyxFQUFDLENBQUMsR0FBR1QsWUFBWSxDQUFDVSxPQUFPO0FBQzlELGlFQUFlVixZQUFZLENBQUNXLE9BQU8sRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NjcmlwdHMvcmVkdWNlcnMvbWFpbkFwcFNsaWNlLmpzPzM5M2YiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlU2xpY2UgfSBmcm9tICdAcmVkdXhqcy90b29sa2l0JztcclxuXHJcbmV4cG9ydCBjb25zdCBtYWluQXBwU2xpY2UgPSBjcmVhdGVTbGljZSh7XHJcbiAgICBuYW1lOiAnbWFpbkFwcCcsXHJcbiAgICBpbml0aWFsU3RhdGU6IHtcclxuICAgICAgICBwcmV2Q29tcG9uZW50OiAnJyxcclxuICAgICAgICBjb21wb25lbnQ6ICcnXHJcbiAgICB9LFxyXG4gICAgcmVkdWNlcnM6IHtcclxuICAgICAgICBjaGFuZ2VDb21wb25lbnQ6IChzdGF0ZSwgcGF5bG9hZCkgPT4ge1xyXG4gICAgICAgICAgICBzdGF0ZS5wcmV2Q29tcG9uZW50ID0gc3RhdGUuY29tcG9uZW50O1xyXG4gICAgICAgICAgICBzdGF0ZS5jb21wb25lbnQgPSBwYXlsb2FkLnBheWxvYWQ7XHJcbiAgICAgICAgfSxcclxuICAgICAgICByZXNldDogKHN0YXRlKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLmNvbXBvbmVudCA9ICcnO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufSk7XHJcblxyXG5leHBvcnQgY29uc3QgeyBjaGFuZ2VDb21wb25lbnQsIHJlc2V0IH0gPSBtYWluQXBwU2xpY2UuYWN0aW9ucztcclxuZXhwb3J0IGRlZmF1bHQgbWFpbkFwcFNsaWNlLnJlZHVjZXI7Il0sIm5hbWVzIjpbImNyZWF0ZVNsaWNlIiwibWFpbkFwcFNsaWNlIiwibmFtZSIsImluaXRpYWxTdGF0ZSIsInByZXZDb21wb25lbnQiLCJjb21wb25lbnQiLCJyZWR1Y2VycyIsImNoYW5nZUNvbXBvbmVudCIsInN0YXRlIiwicGF5bG9hZCIsInJlc2V0IiwiYWN0aW9ucyIsInJlZHVjZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./scripts/reducers/mainAppSlice.js\n");
-
-/***/ }),
-
-/***/ "./scripts/reducers/toastSlice.js":
-/*!****************************************!*\
-  !*** ./scripts/reducers/toastSlice.js ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"toastSlice\": () => (/* binding */ toastSlice),\n/* harmony export */   \"show\": () => (/* binding */ show),\n/* harmony export */   \"close\": () => (/* binding */ close),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n\nconst toastSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n    name: 'toast',\n    initialState: {\n        content: null\n    },\n    reducers: {\n        show: (state, payload)=>{\n            state.content = payload.payload.content;\n        },\n        close: (state, payload)=>{\n            state.content = null;\n        }\n    }\n});\nconst { show , close  } = toastSlice.actions;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toastSlice.reducer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zY3JpcHRzL3JlZHVjZXJzL3RvYXN0U2xpY2UuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQThDO0FBRXZDLEtBQUssQ0FBQ0MsVUFBVSxHQUFHRCw2REFBVyxDQUFDLENBQUM7SUFDbkNFLElBQUksRUFBRSxDQUFPO0lBQ2JDLFlBQVksRUFBRSxDQUFDO1FBQ1hDLE9BQU8sRUFBRSxJQUFJO0lBQ2pCLENBQUM7SUFDREMsUUFBUSxFQUFFLENBQUM7UUFDUEMsSUFBSSxHQUFHQyxLQUFLLEVBQUVDLE9BQU8sR0FBSyxDQUFDO1lBQ3ZCRCxLQUFLLENBQUNILE9BQU8sR0FBR0ksT0FBTyxDQUFDQSxPQUFPLENBQUNKLE9BQU87UUFDM0MsQ0FBQztRQUNESyxLQUFLLEdBQUdGLEtBQUssRUFBRUMsT0FBTyxHQUFLLENBQUM7WUFDeEJELEtBQUssQ0FBQ0gsT0FBTyxHQUFHLElBQUk7UUFDeEIsQ0FBQztJQUNMLENBQUM7QUFDTCxDQUFDO0FBRU0sS0FBSyxDQUFDLENBQUMsQ0FBQ0UsSUFBSSxHQUFFRyxLQUFLLEVBQUMsQ0FBQyxHQUFHUixVQUFVLENBQUNTLE9BQU87QUFDakQsaUVBQWVULFVBQVUsQ0FBQ1UsT0FBTyxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc2NyaXB0cy9yZWR1Y2Vycy90b2FzdFNsaWNlLmpzPzQyZTIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlU2xpY2UgfSBmcm9tICdAcmVkdXhqcy90b29sa2l0JztcclxuXHJcbmV4cG9ydCBjb25zdCB0b2FzdFNsaWNlID0gY3JlYXRlU2xpY2Uoe1xyXG4gICAgbmFtZTogJ3RvYXN0JyxcclxuICAgIGluaXRpYWxTdGF0ZToge1xyXG4gICAgICAgIGNvbnRlbnQ6IG51bGxcclxuICAgIH0sXHJcbiAgICByZWR1Y2Vyczoge1xyXG4gICAgICAgIHNob3c6IChzdGF0ZSwgcGF5bG9hZCkgPT4ge1xyXG4gICAgICAgICAgICBzdGF0ZS5jb250ZW50ID0gcGF5bG9hZC5wYXlsb2FkLmNvbnRlbnQ7XHJcbiAgICAgICAgfSxcclxuICAgICAgICBjbG9zZTogKHN0YXRlLCBwYXlsb2FkKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLmNvbnRlbnQgPSBudWxsO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufSk7XHJcblxyXG5leHBvcnQgY29uc3QgeyBzaG93LCBjbG9zZSB9ID0gdG9hc3RTbGljZS5hY3Rpb25zO1xyXG5leHBvcnQgZGVmYXVsdCB0b2FzdFNsaWNlLnJlZHVjZXI7Il0sIm5hbWVzIjpbImNyZWF0ZVNsaWNlIiwidG9hc3RTbGljZSIsIm5hbWUiLCJpbml0aWFsU3RhdGUiLCJjb250ZW50IiwicmVkdWNlcnMiLCJzaG93Iiwic3RhdGUiLCJwYXlsb2FkIiwiY2xvc2UiLCJhY3Rpb25zIiwicmVkdWNlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./scripts/reducers/toastSlice.js\n");
-
-/***/ }),
-
-/***/ "@fortawesome/free-solid-svg-icons":
-/*!****************************************************!*\
-  !*** external "@fortawesome/free-solid-svg-icons" ***!
-  \****************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@fortawesome/free-solid-svg-icons");
-
-/***/ }),
-
-/***/ "@fortawesome/react-fontawesome":
-/*!*************************************************!*\
-  !*** external "@fortawesome/react-fontawesome" ***!
-  \*************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@fortawesome/react-fontawesome");
-
-/***/ }),
-
-/***/ "@reduxjs/toolkit":
-/*!***********************************!*\
-  !*** external "@reduxjs/toolkit" ***!
-  \***********************************/
+/***/ 184:
 /***/ ((module) => {
 
 "use strict";
@@ -174,10 +428,7 @@ module.exports = require("@reduxjs/toolkit");
 
 /***/ }),
 
-/***/ "electron-is-dev":
-/*!**********************************!*\
-  !*** external "electron-is-dev" ***!
-  \**********************************/
+/***/ 1:
 /***/ ((module) => {
 
 "use strict";
@@ -185,10 +436,7 @@ module.exports = require("electron-is-dev");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 "use strict";
@@ -196,10 +444,7 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-redux":
-/*!******************************!*\
-  !*** external "react-redux" ***!
-  \******************************/
+/***/ 22:
 /***/ ((module) => {
 
 "use strict";
@@ -207,10 +452,7 @@ module.exports = require("react-redux");
 
 /***/ }),
 
-/***/ "react/jsx-runtime":
-/*!************************************!*\
-  !*** external "react/jsx-runtime" ***!
-  \************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
@@ -218,10 +460,7 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "fs/promises":
-/*!******************************!*\
-  !*** external "fs/promises" ***!
-  \******************************/
+/***/ 292:
 /***/ ((module) => {
 
 "use strict";
@@ -229,10 +468,7 @@ module.exports = require("fs/promises");
 
 /***/ }),
 
-/***/ "path":
-/*!***********************!*\
-  !*** external "path" ***!
-  \***********************/
+/***/ 17:
 /***/ ((module) => {
 
 "use strict";
@@ -247,7 +483,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+var __webpack_exports__ = __webpack_require__.X(0, [488], () => (__webpack_exec__(746)));
 module.exports = __webpack_exports__;
 
 })();
