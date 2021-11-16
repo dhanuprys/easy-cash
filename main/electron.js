@@ -5,7 +5,7 @@ module.exports = function () {
         electronApp.whenReady().then(() => {
             const electronWindow = new BrowserWindow({
                 width: 840,
-                height: 500,
+                height: 600,
                 webPreferences: {
                     nodeIntegration: true,
                     contextIsolation: false
