@@ -3,7 +3,7 @@ import { Provider, useDispatch, useSelector } from 'react-redux';
 import Toast from '../items/Toast';
 import store from '../scripts/store';
 import { show, close } from '../scripts/reducers/toastSlice';
-import { setApplicationPorts, setApplicationSocket, notifyClientSocket } from '../scripts/reducers/appSlice';
+import { setApplicationPorts, setApplicationSocket, setVersion, notifyClientSocket } from '../scripts/reducers/appSlice';
 import '../styles/globals.css';
 
 function GlobalToast() {
@@ -40,18 +40,34 @@ function PortConnectivity({ pageProps }) {
 
     ws.addEventListener('open', () => {
       dispatch(setApplicationSocket(ws));
+
+      // Meminta nomor versi
+      ws.send(JSON.stringify({ action: 'current-version' }));
     });
 
     ws.addEventListener('message', (message) => {
-      dispatch(notifyClientSocket(JSON.parse(message.data)));
+      const parsedMessage = JSON.parse(message.data);
+    
+      // Jika kode websocket yang diterima berlabel 'version'
+      // maka event dispatch umum tidak akan dipanggil
+      if (parsedMessage.action === 'version') {
+        dispatch(setVersion(parsedMessage.payload));
+        return;
+      }
+
+      dispatch(notifyClientSocket(parsedMessage));
     });
 
     ws.addEventListener('error', () => {
       dispatch(setApplicationSocket(null));
+
+      connectToWSServer();
     });
 
     ws.addEventListener('close', () => {
       dispatch(setApplicationSocket(null));
+
+      connectToWSServer();
     });
   }
 

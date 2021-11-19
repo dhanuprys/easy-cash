@@ -1,212 +1,128 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 705:
+/***/ "./items/FullScreen.module.css":
+/*!*************************************!*\
+  !*** ./items/FullScreen.module.css ***!
+  \*************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"container": "Toast_container__FdJRd",
-	"show-toast": "Toast_show-toast__2cP_B",
-	"main": "Toast_main__2vup4"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"FullScreen_container__2Qxm0\",\n\t\"center\": \"FullScreen_center__3ruFl\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pdGVtcy9GdWxsU2NyZWVuLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2l0ZW1zL0Z1bGxTY3JlZW4ubW9kdWxlLmNzcz9jNWZjIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcIkZ1bGxTY3JlZW5fY29udGFpbmVyX18yUXhtMFwiLFxuXHRcImNlbnRlclwiOiBcIkZ1bGxTY3JlZW5fY2VudGVyX18zcnVGbFwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./items/FullScreen.module.css\n");
 
 /***/ }),
 
-/***/ 111:
+/***/ "./items/Toast.module.css":
+/*!********************************!*\
+  !*** ./items/Toast.module.css ***!
+  \********************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"Toast_container__FdJRd\",\n\t\"show-toast\": \"Toast_show-toast__2cP_B\",\n\t\"main\": \"Toast_main__2vup4\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pdGVtcy9Ub2FzdC5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2l0ZW1zL1RvYXN0Lm1vZHVsZS5jc3M/MzdkYSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJjb250YWluZXJcIjogXCJUb2FzdF9jb250YWluZXJfX0ZkSlJkXCIsXG5cdFwic2hvdy10b2FzdFwiOiBcIlRvYXN0X3Nob3ctdG9hc3RfXzJjUF9CXCIsXG5cdFwibWFpblwiOiBcIlRvYXN0X21haW5fXzJ2dXA0XCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./items/Toast.module.css\n");
+
+/***/ }),
+
+/***/ "./items/FullScreen.jsx":
+/*!******************************!*\
+  !*** ./items/FullScreen.jsx ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ FullScreen)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FullScreen.module.css */ \"./items/FullScreen.module.css\");\n/* harmony import */ var _FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction FullScreen({ children , className ='' , centerPlace , ...props }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n        className: `${(_FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1___default().container)} ${centerPlace ? (_FullScreen_module_css__WEBPACK_IMPORTED_MODULE_1___default().center) : ''} ${className}`,\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\items\\\\FullScreen.jsx\",\n            lineNumber: 5,\n            columnNumber: 9\n        },\n        __self: this,\n        children: children\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pdGVtcy9GdWxsU2NyZWVuLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBNEM7QUFFN0IsUUFBUSxDQUFDQyxVQUFVLENBQUMsQ0FBQyxDQUFDQyxRQUFRLEdBQUVDLFNBQVMsRUFBRyxDQUFFLElBQUVDLFdBQVcsTUFBS0MsS0FBSyxDQUFDLENBQUMsRUFBRSxDQUFDO0lBQ3JGLE1BQU0sc0VBQ0RDLENBQUc7UUFBQ0gsU0FBUyxLQUFLSCx5RUFBZ0IsQ0FBQyxDQUFDLEVBQUVJLFdBQVcsR0FBR0osc0VBQWEsR0FBRyxDQUFFLEVBQUMsQ0FBQyxFQUFFRyxTQUFTOzs7Ozs7O2tCQUMvRUQsUUFBUTs7QUFHckIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2l0ZW1zL0Z1bGxTY3JlZW4uanN4PzI2ZWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlcyBmcm9tICcuL0Z1bGxTY3JlZW4ubW9kdWxlLmNzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGdWxsU2NyZWVuKHsgY2hpbGRyZW4sIGNsYXNzTmFtZSA9ICcnLCBjZW50ZXJQbGFjZSwgLi4ucHJvcHMgfSkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YCR7c3R5bGVzLmNvbnRhaW5lcn0gJHtjZW50ZXJQbGFjZSA/IHN0eWxlcy5jZW50ZXIgOiAnJ30gJHtjbGFzc05hbWV9YH0+XHJcbiAgICAgICAgICAgIHtjaGlsZHJlbn1cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufSJdLCJuYW1lcyI6WyJzdHlsZXMiLCJGdWxsU2NyZWVuIiwiY2hpbGRyZW4iLCJjbGFzc05hbWUiLCJjZW50ZXJQbGFjZSIsInByb3BzIiwiZGl2IiwiY29udGFpbmVyIiwiY2VudGVyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./items/FullScreen.jsx\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-// EXTERNAL MODULE: external "react-redux"
-var external_react_redux_ = __webpack_require__(22);
-// EXTERNAL MODULE: ./items/FullScreen.jsx
-var FullScreen = __webpack_require__(536);
-// EXTERNAL MODULE: ./items/Toast.module.css
-var Toast_module = __webpack_require__(705);
-var Toast_module_default = /*#__PURE__*/__webpack_require__.n(Toast_module);
-;// CONCATENATED MODULE: ./items/Toast.jsx
+/***/ "./items/Toast.jsx":
+/*!*************************!*\
+  !*** ./items/Toast.jsx ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Toast)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _FullScreen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FullScreen */ \"./items/FullScreen.jsx\");\n/* harmony import */ var _Toast_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Toast.module.css */ \"./items/Toast.module.css\");\n/* harmony import */ var _Toast_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Toast_module_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Toast({ content , closeToast  }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_FullScreen__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\items\\\\Toast.jsx\",\n            lineNumber: 6,\n            columnNumber: 9\n        },\n        __self: this,\n        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n            className: (_Toast_module_css__WEBPACK_IMPORTED_MODULE_2___default().container),\n            __source: {\n                fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\items\\\\Toast.jsx\",\n                lineNumber: 7,\n                columnNumber: 13\n            },\n            __self: this,\n            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                className: (_Toast_module_css__WEBPACK_IMPORTED_MODULE_2___default().main),\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\items\\\\Toast.jsx\",\n                    lineNumber: 8,\n                    columnNumber: 17\n                },\n                __self: this,\n                children: [\n                    content,\n                    \" \",\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                        onClick: closeToast,\n                        __source: {\n                            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\items\\\\Toast.jsx\",\n                            lineNumber: 9,\n                            columnNumber: 31\n                        },\n                        __self: this,\n                        children: \"X\"\n                    })\n                ]\n            })\n        })\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pdGVtcy9Ub2FzdC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFxQztBQUNFO0FBRXhCLFFBQVEsQ0FBQ0UsS0FBSyxDQUFDLENBQUMsQ0FBQ0MsT0FBTyxHQUFFQyxVQUFVLEVBQUMsQ0FBQyxFQUFFLENBQUM7SUFDcEQsTUFBTSxzRUFDREosbURBQVU7Ozs7Ozs7dUZBQ05LLENBQUc7WUFBQ0MsU0FBUyxFQUFFTCxvRUFBZ0I7Ozs7Ozs7NEZBQzNCSSxDQUFHO2dCQUFDQyxTQUFTLEVBQUVMLCtEQUFXOzs7Ozs7OztvQkFDdEJFLE9BQU87b0JBQUMsQ0FBQzt5RkFBQ00sQ0FBSTt3QkFBQ0MsT0FBTyxFQUFFTixVQUFVOzs7Ozs7O2tDQUFFLENBQUM7Ozs7OztBQUsxRCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vaXRlbXMvVG9hc3QuanN4PzVmZjAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEZ1bGxTY3JlZW4gZnJvbSAnLi9GdWxsU2NyZWVuJztcclxuaW1wb3J0IHN0eWxlcyBmcm9tICcuL1RvYXN0Lm1vZHVsZS5jc3MnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVG9hc3QoeyBjb250ZW50LCBjbG9zZVRvYXN0IH0pIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPEZ1bGxTY3JlZW4+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuY29udGFpbmVyfT5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMubWFpbn0+XHJcbiAgICAgICAgICAgICAgICAgICAge2NvbnRlbnR9IDxzcGFuIG9uQ2xpY2s9e2Nsb3NlVG9hc3R9Plg8L3NwYW4+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9GdWxsU2NyZWVuPlxyXG4gICAgKVxyXG59Il0sIm5hbWVzIjpbIkZ1bGxTY3JlZW4iLCJzdHlsZXMiLCJUb2FzdCIsImNvbnRlbnQiLCJjbG9zZVRvYXN0IiwiZGl2IiwiY2xhc3NOYW1lIiwiY29udGFpbmVyIiwibWFpbiIsInNwYW4iLCJvbkNsaWNrIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./items/Toast.jsx\n");
 
+/***/ }),
 
-function Toast({ content , closeToast  }) {
-    return(/*#__PURE__*/ jsx_runtime_.jsx(FullScreen/* default */.Z, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: (Toast_module_default()).container,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (Toast_module_default()).main,
-                children: [
-                    content,
-                    " ",
-                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        onClick: closeToast,
-                        children: "X"
-                    })
-                ]
-            })
-        })
-    }));
-};
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// EXTERNAL MODULE: external "@reduxjs/toolkit"
-var toolkit_ = __webpack_require__(184);
-// EXTERNAL MODULE: ./scripts/reducers/mainAppSlice.js
-var mainAppSlice = __webpack_require__(174);
-// EXTERNAL MODULE: ./scripts/reducers/toastSlice.js
-var toastSlice = __webpack_require__(867);
-;// CONCATENATED MODULE: ./scripts/reducers/appSlice.js
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _items_Toast__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../items/Toast */ \"./items/Toast.jsx\");\n/* harmony import */ var _scripts_store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../scripts/store */ \"./scripts/store.js\");\n/* harmony import */ var _scripts_reducers_toastSlice__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../scripts/reducers/toastSlice */ \"./scripts/reducers/toastSlice.js\");\n/* harmony import */ var _scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../scripts/reducers/appSlice */ \"./scripts/reducers/appSlice.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_7__);\n\n\n\n\n\n\n\n\nfunction GlobalToast() {\n    const toastContent = (0,react_redux__WEBPACK_IMPORTED_MODULE_2__.useSelector)((state)=>state.toast.content\n    );\n    const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_2__.useDispatch)();\n    const { 0: showToast , 1: setShowToast  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    const closeToast = ()=>{\n        dispatch((0,_scripts_reducers_toastSlice__WEBPACK_IMPORTED_MODULE_5__.close)());\n        setShowToast(false);\n    };\n    if (toastContent === null) {\n        return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        }));\n    }\n    if (!showToast) {\n        setTimeout(()=>setShowToast(true)\n        , 200);\n        return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        }));\n    }\n    setTimeout(()=>{\n        closeToast();\n    }, 6000);\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_items_Toast__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n        content: toastContent,\n        closeToast: closeToast,\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\pages\\\\_app.js\",\n            lineNumber: 32,\n            columnNumber: 5\n        },\n        __self: this\n    }));\n}\nfunction PortConnectivity({ pageProps  }) {\n    const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_2__.useDispatch)();\n    const connectToWSServer = ()=>{\n        const ws = new WebSocket(`ws://localhost:${pageProps.__application_ports.wsServerPort}`);\n        ws.addEventListener('open', ()=>{\n            dispatch((0,_scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__.setApplicationSocket)(ws));\n            // Meminta nomor versi\n            ws.send(JSON.stringify({\n                action: 'current-version'\n            }));\n        });\n        ws.addEventListener('message', (message)=>{\n            const parsedMessage = JSON.parse(message.data);\n            // Jika kode websocket yang diterima berlabel 'version'\n            // maka event dispatch umum tidak akan dipanggil\n            if (parsedMessage.action === 'version') {\n                dispatch((0,_scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__.setVersion)(parsedMessage.payload));\n                return;\n            }\n            dispatch((0,_scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__.notifyClientSocket)(parsedMessage));\n        });\n        ws.addEventListener('error', ()=>{\n            dispatch((0,_scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__.setApplicationSocket)(null));\n            connectToWSServer();\n        });\n        ws.addEventListener('close', ()=>{\n            dispatch((0,_scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__.setApplicationSocket)(null));\n            connectToWSServer();\n        });\n    };\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        if (pageProps.__application_ports) {\n            dispatch((0,_scripts_reducers_appSlice__WEBPACK_IMPORTED_MODULE_6__.setApplicationPorts)(pageProps.__application_ports));\n            connectToWSServer();\n        }\n    });\n    return \"\";\n}\nfunction MyApp({ Component , pageProps  }) {\n    // Ini adalah handler aplikasi custom yang sudah terintegrasi\n    // dengan react-redux\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_redux__WEBPACK_IMPORTED_MODULE_2__.Provider, {\n        store: _scripts_store__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n        __source: {\n            fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\pages\\\\_app.js\",\n            lineNumber: 89,\n            columnNumber: 5\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Component, {\n                ...pageProps,\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\pages\\\\_app.js\",\n                    lineNumber: 90,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(GlobalToast, {\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\pages\\\\_app.js\",\n                    lineNumber: 91,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(PortConnectivity, {\n                pageProps: pageProps,\n                __source: {\n                    fileName: \"C:\\\\Code\\\\Project\\\\kasir\\\\renderer\\\\pages\\\\_app.js\",\n                    lineNumber: 92,\n                    columnNumber: 7\n                },\n                __self: this\n            })\n        ]\n    }));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFDWCxDQUFDO1NBRVFlLEtBQUssQ0FBQyxDQUFDLENBQUNDLFNBQVMsR0FBRWpCLFNBQVMsRUFBQyxDQUFDLEVBQUUsQ0FBQztJQUN4QyxFQUE2RDtJQUM3RCxFQUFxQjtJQUNyQixNQUFNLHVFQUNIdEIsaURBQVE7UUFBQ0ksS0FBSyxFQUFFQSxzREFBSzs7Ozs7Ozs7aUZBQ25CbUMsU0FBUzttQkFBS2pCLFNBQVM7Ozs7Ozs7O2lGQUN2QlgsV0FBVzs7Ozs7Ozs7aUZBQ1hVLGdCQUFnQjtnQkFBQ0MsU0FBUyxFQUFFQSxTQUFTOzs7Ozs7Ozs7O0FBRzVDLENBQUM7QUFFRCxpRUFBZWdCLEtBQUssRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgUHJvdmlkZXIsIHVzZURpc3BhdGNoLCB1c2VTZWxlY3RvciB9IGZyb20gJ3JlYWN0LXJlZHV4JztcbmltcG9ydCBUb2FzdCBmcm9tICcuLi9pdGVtcy9Ub2FzdCc7XG5pbXBvcnQgc3RvcmUgZnJvbSAnLi4vc2NyaXB0cy9zdG9yZSc7XG5pbXBvcnQgeyBzaG93LCBjbG9zZSB9IGZyb20gJy4uL3NjcmlwdHMvcmVkdWNlcnMvdG9hc3RTbGljZSc7XG5pbXBvcnQgeyBzZXRBcHBsaWNhdGlvblBvcnRzLCBzZXRBcHBsaWNhdGlvblNvY2tldCwgc2V0VmVyc2lvbiwgbm90aWZ5Q2xpZW50U29ja2V0IH0gZnJvbSAnLi4vc2NyaXB0cy9yZWR1Y2Vycy9hcHBTbGljZSc7XG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcyc7XG5cbmZ1bmN0aW9uIEdsb2JhbFRvYXN0KCkge1xuICBjb25zdCB0b2FzdENvbnRlbnQgPSB1c2VTZWxlY3Rvcigoc3RhdGUpID0+IHN0YXRlLnRvYXN0LmNvbnRlbnQpO1xuICBjb25zdCBkaXNwYXRjaCA9IHVzZURpc3BhdGNoKCk7XG4gIGNvbnN0IFtzaG93VG9hc3QsIHNldFNob3dUb2FzdF0gPSB1c2VTdGF0ZShmYWxzZSk7XG4gIGNvbnN0IGNsb3NlVG9hc3QgPSAoKSA9PiB7XG4gICAgZGlzcGF0Y2goY2xvc2UoKSk7XG4gICAgc2V0U2hvd1RvYXN0KGZhbHNlKTtcbiAgfVxuXG4gIGlmICh0b2FzdENvbnRlbnQgPT09IG51bGwpIHtcbiAgICByZXR1cm4gPD48Lz47XG4gIH1cblxuICBpZiAoIXNob3dUb2FzdCkge1xuICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0U2hvd1RvYXN0KHRydWUpLCAyMDApO1xuICAgIHJldHVybiA8PjwvPjtcbiAgfVxuXG4gIHNldFRpbWVvdXQoKCkgPT4ge1xuICAgIGNsb3NlVG9hc3QoKTtcbiAgfSwgNjAwMCk7XG5cbiAgcmV0dXJuIChcbiAgICA8VG9hc3QgY29udGVudD17dG9hc3RDb250ZW50fSBjbG9zZVRvYXN0PXtjbG9zZVRvYXN0fSAvPlxuICApXG59XG5cbmZ1bmN0aW9uIFBvcnRDb25uZWN0aXZpdHkoeyBwYWdlUHJvcHMgfSkge1xuICBjb25zdCBkaXNwYXRjaCA9IHVzZURpc3BhdGNoKCk7XG4gIGNvbnN0IGNvbm5lY3RUb1dTU2VydmVyID0gKCkgPT4ge1xuICAgIGNvbnN0IHdzID0gbmV3IFdlYlNvY2tldChgd3M6Ly9sb2NhbGhvc3Q6JHtwYWdlUHJvcHMuX19hcHBsaWNhdGlvbl9wb3J0cy53c1NlcnZlclBvcnR9YCk7XG5cbiAgICB3cy5hZGRFdmVudExpc3RlbmVyKCdvcGVuJywgKCkgPT4ge1xuICAgICAgZGlzcGF0Y2goc2V0QXBwbGljYXRpb25Tb2NrZXQod3MpKTtcblxuICAgICAgLy8gTWVtaW50YSBub21vciB2ZXJzaVxuICAgICAgd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IGFjdGlvbjogJ2N1cnJlbnQtdmVyc2lvbicgfSkpO1xuICAgIH0pO1xuXG4gICAgd3MuYWRkRXZlbnRMaXN0ZW5lcignbWVzc2FnZScsIChtZXNzYWdlKSA9PiB7XG4gICAgICBjb25zdCBwYXJzZWRNZXNzYWdlID0gSlNPTi5wYXJzZShtZXNzYWdlLmRhdGEpO1xuICAgIFxuICAgICAgLy8gSmlrYSBrb2RlIHdlYnNvY2tldCB5YW5nIGRpdGVyaW1hIGJlcmxhYmVsICd2ZXJzaW9uJ1xuICAgICAgLy8gbWFrYSBldmVudCBkaXNwYXRjaCB1bXVtIHRpZGFrIGFrYW4gZGlwYW5nZ2lsXG4gICAgICBpZiAocGFyc2VkTWVzc2FnZS5hY3Rpb24gPT09ICd2ZXJzaW9uJykge1xuICAgICAgICBkaXNwYXRjaChzZXRWZXJzaW9uKHBhcnNlZE1lc3NhZ2UucGF5bG9hZCkpO1xuICAgICAgICByZXR1cm47XG4gICAgICB9XG5cbiAgICAgIGRpc3BhdGNoKG5vdGlmeUNsaWVudFNvY2tldChwYXJzZWRNZXNzYWdlKSk7XG4gICAgfSk7XG5cbiAgICB3cy5hZGRFdmVudExpc3RlbmVyKCdlcnJvcicsICgpID0+IHtcbiAgICAgIGRpc3BhdGNoKHNldEFwcGxpY2F0aW9uU29ja2V0KG51bGwpKTtcblxuICAgICAgY29ubmVjdFRvV1NTZXJ2ZXIoKTtcbiAgICB9KTtcblxuICAgIHdzLmFkZEV2ZW50TGlzdGVuZXIoJ2Nsb3NlJywgKCkgPT4ge1xuICAgICAgZGlzcGF0Y2goc2V0QXBwbGljYXRpb25Tb2NrZXQobnVsbCkpO1xuXG4gICAgICBjb25uZWN0VG9XU1NlcnZlcigpO1xuICAgIH0pO1xuICB9XG5cbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICBpZiAocGFnZVByb3BzLl9fYXBwbGljYXRpb25fcG9ydHMpIHtcbiAgICAgIGRpc3BhdGNoKHNldEFwcGxpY2F0aW9uUG9ydHMocGFnZVByb3BzLl9fYXBwbGljYXRpb25fcG9ydHMpKTtcbiAgXG4gICAgICAgIGNvbm5lY3RUb1dTU2VydmVyKCk7XG4gICAgfVxuICB9KVxuXG4gIHJldHVybiBcIlwiO1xufVxuXG5mdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcbiAgLy8gSW5pIGFkYWxhaCBoYW5kbGVyIGFwbGlrYXNpIGN1c3RvbSB5YW5nIHN1ZGFoIHRlcmludGVncmFzaVxuICAvLyBkZW5nYW4gcmVhY3QtcmVkdXhcbiAgcmV0dXJuIChcbiAgICA8UHJvdmlkZXIgc3RvcmU9e3N0b3JlfT5cbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICAgIDxHbG9iYWxUb2FzdCAvPlxuICAgICAgPFBvcnRDb25uZWN0aXZpdHkgcGFnZVByb3BzPXtwYWdlUHJvcHN9IC8+XG4gICAgPC9Qcm92aWRlcj5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgTXlBcHA7XG4iXSwibmFtZXMiOlsidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJQcm92aWRlciIsInVzZURpc3BhdGNoIiwidXNlU2VsZWN0b3IiLCJUb2FzdCIsInN0b3JlIiwic2hvdyIsImNsb3NlIiwic2V0QXBwbGljYXRpb25Qb3J0cyIsInNldEFwcGxpY2F0aW9uU29ja2V0Iiwic2V0VmVyc2lvbiIsIm5vdGlmeUNsaWVudFNvY2tldCIsIkdsb2JhbFRvYXN0IiwidG9hc3RDb250ZW50Iiwic3RhdGUiLCJ0b2FzdCIsImNvbnRlbnQiLCJkaXNwYXRjaCIsInNob3dUb2FzdCIsInNldFNob3dUb2FzdCIsImNsb3NlVG9hc3QiLCJzZXRUaW1lb3V0IiwiUG9ydENvbm5lY3Rpdml0eSIsInBhZ2VQcm9wcyIsImNvbm5lY3RUb1dTU2VydmVyIiwid3MiLCJXZWJTb2NrZXQiLCJfX2FwcGxpY2F0aW9uX3BvcnRzIiwid3NTZXJ2ZXJQb3J0IiwiYWRkRXZlbnRMaXN0ZW5lciIsInNlbmQiLCJKU09OIiwic3RyaW5naWZ5IiwiYWN0aW9uIiwibWVzc2FnZSIsInBhcnNlZE1lc3NhZ2UiLCJwYXJzZSIsImRhdGEiLCJwYXlsb2FkIiwiTXlBcHAiLCJDb21wb25lbnQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
-const appSlice = (0,toolkit_.createSlice)({
-    name: 'app',
-    initialState: {
-        ports: {
-        },
-        ws: null,
-        wsMessage: null
-    },
-    reducers: {
-        setApplicationPorts: (state, payload)=>{
-            state.ports = payload.payload;
-        },
-        setApplicationSocket: (state, payload)=>{
-            state.ws = payload.payload;
-        },
-        notifyClientSocket: (state, payload)=>{
-            state.wsMessage = payload.payload;
-        }
-    }
-});
-const { setApplicationPorts , setApplicationSocket , notifyClientSocket  } = appSlice.actions;
-/* harmony default export */ const reducers_appSlice = (appSlice.reducer);
+/***/ }),
 
-;// CONCATENATED MODULE: ./scripts/store.js
+/***/ "./scripts/reducers/appSlice.js":
+/*!**************************************!*\
+  !*** ./scripts/reducers/appSlice.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"appSlice\": () => (/* binding */ appSlice),\n/* harmony export */   \"setApplicationPorts\": () => (/* binding */ setApplicationPorts),\n/* harmony export */   \"setApplicationSocket\": () => (/* binding */ setApplicationSocket),\n/* harmony export */   \"setVersion\": () => (/* binding */ setVersion),\n/* harmony export */   \"notifyClientSocket\": () => (/* binding */ notifyClientSocket),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n\nconst appSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n    name: 'app',\n    initialState: {\n        ports: {\n        },\n        ws: null,\n        wsMessage: null,\n        version: ''\n    },\n    reducers: {\n        setApplicationPorts: (state, payload)=>{\n            state.ports = payload.payload;\n        },\n        setApplicationSocket: (state, payload)=>{\n            state.ws = payload.payload;\n        },\n        setVersion: (state, payload)=>{\n            state.version = payload.payload;\n        },\n        notifyClientSocket: (state, payload)=>{\n            state.wsMessage = payload.payload;\n        }\n    }\n});\nconst { setApplicationPorts , setApplicationSocket , setVersion , notifyClientSocket  } = appSlice.actions;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (appSlice.reducer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zY3JpcHRzL3JlZHVjZXJzL2FwcFNsaWNlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQThDO0FBRXZDLEtBQUssQ0FBQ0MsUUFBUSxHQUFHRCw2REFBVyxDQUFDLENBQUM7SUFDakNFLElBQUksRUFBRSxDQUFLO0lBQ1hDLFlBQVksRUFBRSxDQUFDO1FBQ1hDLEtBQUssRUFBRSxDQUFDO1FBQUEsQ0FBQztRQUNUQyxFQUFFLEVBQUUsSUFBSTtRQUNSQyxTQUFTLEVBQUUsSUFBSTtRQUNmQyxPQUFPLEVBQUUsQ0FBRTtJQUNmLENBQUM7SUFDREMsUUFBUSxFQUFFLENBQUM7UUFDUEMsbUJBQW1CLEdBQUdDLEtBQUssRUFBRUMsT0FBTyxHQUFLLENBQUM7WUFDdENELEtBQUssQ0FBQ04sS0FBSyxHQUFHTyxPQUFPLENBQUNBLE9BQU87UUFDakMsQ0FBQztRQUNEQyxvQkFBb0IsR0FBR0YsS0FBSyxFQUFFQyxPQUFPLEdBQUssQ0FBQztZQUN2Q0QsS0FBSyxDQUFDTCxFQUFFLEdBQUdNLE9BQU8sQ0FBQ0EsT0FBTztRQUM5QixDQUFDO1FBQ0RFLFVBQVUsR0FBR0gsS0FBSyxFQUFFQyxPQUFPLEdBQUssQ0FBQztZQUM3QkQsS0FBSyxDQUFDSCxPQUFPLEdBQUdJLE9BQU8sQ0FBQ0EsT0FBTztRQUNuQyxDQUFDO1FBQ0RHLGtCQUFrQixHQUFHSixLQUFLLEVBQUVDLE9BQU8sR0FBSyxDQUFDO1lBQ3JDRCxLQUFLLENBQUNKLFNBQVMsR0FBR0ssT0FBTyxDQUFDQSxPQUFPO1FBQ3JDLENBQUM7SUFDTCxDQUFDO0FBQ0wsQ0FBQztBQUVNLEtBQUssQ0FBQyxDQUFDLENBQUNGLG1CQUFtQixHQUFFRyxvQkFBb0IsR0FBRUMsVUFBVSxHQUFFQyxrQkFBa0IsRUFBQyxDQUFDLEdBQUdiLFFBQVEsQ0FBQ2MsT0FBTztBQUM3RyxpRUFBZWQsUUFBUSxDQUFDZSxPQUFPLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zY3JpcHRzL3JlZHVjZXJzL2FwcFNsaWNlLmpzP2U3YTgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlU2xpY2UgfSBmcm9tICdAcmVkdXhqcy90b29sa2l0JztcclxuXHJcbmV4cG9ydCBjb25zdCBhcHBTbGljZSA9IGNyZWF0ZVNsaWNlKHtcclxuICAgIG5hbWU6ICdhcHAnLFxyXG4gICAgaW5pdGlhbFN0YXRlOiB7XHJcbiAgICAgICAgcG9ydHM6IHt9LFxyXG4gICAgICAgIHdzOiBudWxsLFxyXG4gICAgICAgIHdzTWVzc2FnZTogbnVsbCxcclxuICAgICAgICB2ZXJzaW9uOiAnJ1xyXG4gICAgfSxcclxuICAgIHJlZHVjZXJzOiB7XHJcbiAgICAgICAgc2V0QXBwbGljYXRpb25Qb3J0czogKHN0YXRlLCBwYXlsb2FkKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLnBvcnRzID0gcGF5bG9hZC5wYXlsb2FkO1xyXG4gICAgICAgIH0sXHJcbiAgICAgICAgc2V0QXBwbGljYXRpb25Tb2NrZXQ6IChzdGF0ZSwgcGF5bG9hZCkgPT4ge1xyXG4gICAgICAgICAgICBzdGF0ZS53cyA9IHBheWxvYWQucGF5bG9hZFxyXG4gICAgICAgIH0sXHJcbiAgICAgICAgc2V0VmVyc2lvbjogKHN0YXRlLCBwYXlsb2FkKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLnZlcnNpb24gPSBwYXlsb2FkLnBheWxvYWRcclxuICAgICAgICB9LFxyXG4gICAgICAgIG5vdGlmeUNsaWVudFNvY2tldDogKHN0YXRlLCBwYXlsb2FkKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLndzTWVzc2FnZSA9IHBheWxvYWQucGF5bG9hZDtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn0pO1xyXG5cclxuZXhwb3J0IGNvbnN0IHsgc2V0QXBwbGljYXRpb25Qb3J0cywgc2V0QXBwbGljYXRpb25Tb2NrZXQsIHNldFZlcnNpb24sIG5vdGlmeUNsaWVudFNvY2tldCB9ID0gYXBwU2xpY2UuYWN0aW9ucztcclxuZXhwb3J0IGRlZmF1bHQgYXBwU2xpY2UucmVkdWNlcjsiXSwibmFtZXMiOlsiY3JlYXRlU2xpY2UiLCJhcHBTbGljZSIsIm5hbWUiLCJpbml0aWFsU3RhdGUiLCJwb3J0cyIsIndzIiwid3NNZXNzYWdlIiwidmVyc2lvbiIsInJlZHVjZXJzIiwic2V0QXBwbGljYXRpb25Qb3J0cyIsInN0YXRlIiwicGF5bG9hZCIsInNldEFwcGxpY2F0aW9uU29ja2V0Iiwic2V0VmVyc2lvbiIsIm5vdGlmeUNsaWVudFNvY2tldCIsImFjdGlvbnMiLCJyZWR1Y2VyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./scripts/reducers/appSlice.js\n");
 
+/***/ }),
 
+/***/ "./scripts/reducers/mainAppSlice.js":
+/*!******************************************!*\
+  !*** ./scripts/reducers/mainAppSlice.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony default export */ const store = ((0,toolkit_.configureStore)({
-    reducer: {
-        toast: toastSlice/* default */.ZP,
-        mainApp: mainAppSlice/* default */.ZP,
-        app: reducers_appSlice
-    },
-    middleware: (getDefaultMiddleware)=>getDefaultMiddleware({
-            serializableCheck: {
-                // Ignore these action types
-                ignoredActions: [
-                    'app/setApplicationSocket',
-                    'app/notifyClientSocket'
-                ],
-                // Ignore these field paths in all actions
-                // ignoredActionPaths: ['app.ws', 'app.wsMessage'],
-                // Ignore these paths in the state
-                ignoredPaths: [
-                    'app.ws',
-                    'app.wsMessage'
-                ]
-            }
-        })
-}));
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"mainAppSlice\": () => (/* binding */ mainAppSlice),\n/* harmony export */   \"changeComponent\": () => (/* binding */ changeComponent),\n/* harmony export */   \"reset\": () => (/* binding */ reset),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n\nconst mainAppSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n    name: 'mainApp',\n    initialState: {\n        prevComponent: '',\n        component: ''\n    },\n    reducers: {\n        changeComponent: (state, payload)=>{\n            state.prevComponent = state.component;\n            state.component = payload.payload;\n        },\n        reset: (state)=>{\n            state.component = '';\n        }\n    }\n});\nconst { changeComponent , reset  } = mainAppSlice.actions;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mainAppSlice.reducer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zY3JpcHRzL3JlZHVjZXJzL21haW5BcHBTbGljZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBOEM7QUFFdkMsS0FBSyxDQUFDQyxZQUFZLEdBQUdELDZEQUFXLENBQUMsQ0FBQztJQUNyQ0UsSUFBSSxFQUFFLENBQVM7SUFDZkMsWUFBWSxFQUFFLENBQUM7UUFDWEMsYUFBYSxFQUFFLENBQUU7UUFDakJDLFNBQVMsRUFBRSxDQUFFO0lBQ2pCLENBQUM7SUFDREMsUUFBUSxFQUFFLENBQUM7UUFDUEMsZUFBZSxHQUFHQyxLQUFLLEVBQUVDLE9BQU8sR0FBSyxDQUFDO1lBQ2xDRCxLQUFLLENBQUNKLGFBQWEsR0FBR0ksS0FBSyxDQUFDSCxTQUFTO1lBQ3JDRyxLQUFLLENBQUNILFNBQVMsR0FBR0ksT0FBTyxDQUFDQSxPQUFPO1FBQ3JDLENBQUM7UUFDREMsS0FBSyxHQUFHRixLQUFLLEdBQUssQ0FBQztZQUNmQSxLQUFLLENBQUNILFNBQVMsR0FBRyxDQUFFO1FBQ3hCLENBQUM7SUFDTCxDQUFDO0FBQ0wsQ0FBQztBQUVNLEtBQUssQ0FBQyxDQUFDLENBQUNFLGVBQWUsR0FBRUcsS0FBSyxFQUFDLENBQUMsR0FBR1QsWUFBWSxDQUFDVSxPQUFPO0FBQzlELGlFQUFlVixZQUFZLENBQUNXLE9BQU8sRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NjcmlwdHMvcmVkdWNlcnMvbWFpbkFwcFNsaWNlLmpzPzM5M2YiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlU2xpY2UgfSBmcm9tICdAcmVkdXhqcy90b29sa2l0JztcclxuXHJcbmV4cG9ydCBjb25zdCBtYWluQXBwU2xpY2UgPSBjcmVhdGVTbGljZSh7XHJcbiAgICBuYW1lOiAnbWFpbkFwcCcsXHJcbiAgICBpbml0aWFsU3RhdGU6IHtcclxuICAgICAgICBwcmV2Q29tcG9uZW50OiAnJyxcclxuICAgICAgICBjb21wb25lbnQ6ICcnXHJcbiAgICB9LFxyXG4gICAgcmVkdWNlcnM6IHtcclxuICAgICAgICBjaGFuZ2VDb21wb25lbnQ6IChzdGF0ZSwgcGF5bG9hZCkgPT4ge1xyXG4gICAgICAgICAgICBzdGF0ZS5wcmV2Q29tcG9uZW50ID0gc3RhdGUuY29tcG9uZW50O1xyXG4gICAgICAgICAgICBzdGF0ZS5jb21wb25lbnQgPSBwYXlsb2FkLnBheWxvYWQ7XHJcbiAgICAgICAgfSxcclxuICAgICAgICByZXNldDogKHN0YXRlKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLmNvbXBvbmVudCA9ICcnO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufSk7XHJcblxyXG5leHBvcnQgY29uc3QgeyBjaGFuZ2VDb21wb25lbnQsIHJlc2V0IH0gPSBtYWluQXBwU2xpY2UuYWN0aW9ucztcclxuZXhwb3J0IGRlZmF1bHQgbWFpbkFwcFNsaWNlLnJlZHVjZXI7Il0sIm5hbWVzIjpbImNyZWF0ZVNsaWNlIiwibWFpbkFwcFNsaWNlIiwibmFtZSIsImluaXRpYWxTdGF0ZSIsInByZXZDb21wb25lbnQiLCJjb21wb25lbnQiLCJyZWR1Y2VycyIsImNoYW5nZUNvbXBvbmVudCIsInN0YXRlIiwicGF5bG9hZCIsInJlc2V0IiwiYWN0aW9ucyIsInJlZHVjZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./scripts/reducers/mainAppSlice.js\n");
 
-;// CONCATENATED MODULE: ./pages/_app.js
+/***/ }),
 
+/***/ "./scripts/reducers/toastSlice.js":
+/*!****************************************!*\
+  !*** ./scripts/reducers/toastSlice.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"toastSlice\": () => (/* binding */ toastSlice),\n/* harmony export */   \"show\": () => (/* binding */ show),\n/* harmony export */   \"close\": () => (/* binding */ close),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n\nconst toastSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n    name: 'toast',\n    initialState: {\n        content: null\n    },\n    reducers: {\n        show: (state, payload)=>{\n            state.content = payload.payload.content;\n        },\n        close: (state, payload)=>{\n            state.content = null;\n        }\n    }\n});\nconst { show , close  } = toastSlice.actions;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toastSlice.reducer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zY3JpcHRzL3JlZHVjZXJzL3RvYXN0U2xpY2UuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQThDO0FBRXZDLEtBQUssQ0FBQ0MsVUFBVSxHQUFHRCw2REFBVyxDQUFDLENBQUM7SUFDbkNFLElBQUksRUFBRSxDQUFPO0lBQ2JDLFlBQVksRUFBRSxDQUFDO1FBQ1hDLE9BQU8sRUFBRSxJQUFJO0lBQ2pCLENBQUM7SUFDREMsUUFBUSxFQUFFLENBQUM7UUFDUEMsSUFBSSxHQUFHQyxLQUFLLEVBQUVDLE9BQU8sR0FBSyxDQUFDO1lBQ3ZCRCxLQUFLLENBQUNILE9BQU8sR0FBR0ksT0FBTyxDQUFDQSxPQUFPLENBQUNKLE9BQU87UUFDM0MsQ0FBQztRQUNESyxLQUFLLEdBQUdGLEtBQUssRUFBRUMsT0FBTyxHQUFLLENBQUM7WUFDeEJELEtBQUssQ0FBQ0gsT0FBTyxHQUFHLElBQUk7UUFDeEIsQ0FBQztJQUNMLENBQUM7QUFDTCxDQUFDO0FBRU0sS0FBSyxDQUFDLENBQUMsQ0FBQ0UsSUFBSSxHQUFFRyxLQUFLLEVBQUMsQ0FBQyxHQUFHUixVQUFVLENBQUNTLE9BQU87QUFDakQsaUVBQWVULFVBQVUsQ0FBQ1UsT0FBTyxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc2NyaXB0cy9yZWR1Y2Vycy90b2FzdFNsaWNlLmpzPzQyZTIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlU2xpY2UgfSBmcm9tICdAcmVkdXhqcy90b29sa2l0JztcclxuXHJcbmV4cG9ydCBjb25zdCB0b2FzdFNsaWNlID0gY3JlYXRlU2xpY2Uoe1xyXG4gICAgbmFtZTogJ3RvYXN0JyxcclxuICAgIGluaXRpYWxTdGF0ZToge1xyXG4gICAgICAgIGNvbnRlbnQ6IG51bGxcclxuICAgIH0sXHJcbiAgICByZWR1Y2Vyczoge1xyXG4gICAgICAgIHNob3c6IChzdGF0ZSwgcGF5bG9hZCkgPT4ge1xyXG4gICAgICAgICAgICBzdGF0ZS5jb250ZW50ID0gcGF5bG9hZC5wYXlsb2FkLmNvbnRlbnQ7XHJcbiAgICAgICAgfSxcclxuICAgICAgICBjbG9zZTogKHN0YXRlLCBwYXlsb2FkKSA9PiB7XHJcbiAgICAgICAgICAgIHN0YXRlLmNvbnRlbnQgPSBudWxsO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufSk7XHJcblxyXG5leHBvcnQgY29uc3QgeyBzaG93LCBjbG9zZSB9ID0gdG9hc3RTbGljZS5hY3Rpb25zO1xyXG5leHBvcnQgZGVmYXVsdCB0b2FzdFNsaWNlLnJlZHVjZXI7Il0sIm5hbWVzIjpbImNyZWF0ZVNsaWNlIiwidG9hc3RTbGljZSIsIm5hbWUiLCJpbml0aWFsU3RhdGUiLCJjb250ZW50IiwicmVkdWNlcnMiLCJzaG93Iiwic3RhdGUiLCJwYXlsb2FkIiwiY2xvc2UiLCJhY3Rpb25zIiwicmVkdWNlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./scripts/reducers/toastSlice.js\n");
 
+/***/ }),
 
+/***/ "./scripts/store.js":
+/*!**************************!*\
+  !*** ./scripts/store.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _reducers_mainAppSlice__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducers/mainAppSlice */ \"./scripts/reducers/mainAppSlice.js\");\n/* harmony import */ var _reducers_toastSlice__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./reducers/toastSlice */ \"./scripts/reducers/toastSlice.js\");\n/* harmony import */ var _reducers_appSlice__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./reducers/appSlice */ \"./scripts/reducers/appSlice.js\");\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.configureStore)({\n    reducer: {\n        toast: _reducers_toastSlice__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n        mainApp: _reducers_mainAppSlice__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n        app: _reducers_appSlice__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    middleware: (getDefaultMiddleware)=>getDefaultMiddleware({\n            serializableCheck: {\n                // Ignore these action types\n                ignoredActions: [\n                    'app/setApplicationSocket',\n                    'app/notifyClientSocket'\n                ],\n                // Ignore these field paths in all actions\n                // ignoredActionPaths: ['app.ws', 'app.wsMessage'],\n                // Ignore these paths in the state\n                ignoredPaths: [\n                    'app.ws',\n                    'app.wsMessage'\n                ]\n            }\n        })\n}));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zY3JpcHRzL3N0b3JlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFpRDtBQUNDO0FBQ0o7QUFDSjtBQUUxQyxpRUFBZUEsZ0VBQWMsQ0FBQyxDQUFDO0lBQzNCSSxPQUFPLEVBQUUsQ0FBQztRQUNOQyxLQUFLLEVBQUVILDREQUFVO1FBQ2pCSSxPQUFPLEVBQUVMLDhEQUFZO1FBQ3JCTSxHQUFHLEVBQUVKLDBEQUFRO0lBQ2pCLENBQUM7SUFDREssVUFBVSxHQUFHQyxvQkFBb0IsR0FDN0JBLG9CQUFvQixDQUFDLENBQUM7WUFDbEJDLGlCQUFpQixFQUFFLENBQUM7Z0JBQ2hCLEVBQTRCO2dCQUM1QkMsY0FBYyxFQUFFLENBQUM7b0JBQUEsQ0FBMEI7b0JBQUUsQ0FBd0I7Z0JBQUEsQ0FBQztnQkFDdEUsRUFBMEM7Z0JBQzFDLEVBQW1EO2dCQUNuRCxFQUFrQztnQkFDbENDLFlBQVksRUFBRSxDQUFDO29CQUFBLENBQVE7b0JBQUUsQ0FBZTtnQkFBQSxDQUFDO1lBQzdDLENBQUM7UUFDTCxDQUFDO0FBQ1QsQ0FBQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc2NyaXB0cy9zdG9yZS5qcz82ODNiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNvbmZpZ3VyZVN0b3JlIH0gZnJvbSAnQHJlZHV4anMvdG9vbGtpdCc7XHJcbmltcG9ydCBtYWluQXBwU2xpY2UgZnJvbSAnLi9yZWR1Y2Vycy9tYWluQXBwU2xpY2UnO1xyXG5pbXBvcnQgdG9hc3RTbGljZSBmcm9tICcuL3JlZHVjZXJzL3RvYXN0U2xpY2UnO1xyXG5pbXBvcnQgYXBwU2xpY2UgZnJvbSAnLi9yZWR1Y2Vycy9hcHBTbGljZSc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjb25maWd1cmVTdG9yZSh7XHJcbiAgICByZWR1Y2VyOiB7XHJcbiAgICAgICAgdG9hc3Q6IHRvYXN0U2xpY2UsXHJcbiAgICAgICAgbWFpbkFwcDogbWFpbkFwcFNsaWNlLFxyXG4gICAgICAgIGFwcDogYXBwU2xpY2VcclxuICAgIH0sXHJcbiAgICBtaWRkbGV3YXJlOiAoZ2V0RGVmYXVsdE1pZGRsZXdhcmUpID0+XHJcbiAgICAgICAgZ2V0RGVmYXVsdE1pZGRsZXdhcmUoe1xyXG4gICAgICAgICAgICBzZXJpYWxpemFibGVDaGVjazoge1xyXG4gICAgICAgICAgICAgICAgLy8gSWdub3JlIHRoZXNlIGFjdGlvbiB0eXBlc1xyXG4gICAgICAgICAgICAgICAgaWdub3JlZEFjdGlvbnM6IFsnYXBwL3NldEFwcGxpY2F0aW9uU29ja2V0JywgJ2FwcC9ub3RpZnlDbGllbnRTb2NrZXQnXSxcclxuICAgICAgICAgICAgICAgIC8vIElnbm9yZSB0aGVzZSBmaWVsZCBwYXRocyBpbiBhbGwgYWN0aW9uc1xyXG4gICAgICAgICAgICAgICAgLy8gaWdub3JlZEFjdGlvblBhdGhzOiBbJ2FwcC53cycsICdhcHAud3NNZXNzYWdlJ10sXHJcbiAgICAgICAgICAgICAgICAvLyBJZ25vcmUgdGhlc2UgcGF0aHMgaW4gdGhlIHN0YXRlXHJcbiAgICAgICAgICAgICAgICBpZ25vcmVkUGF0aHM6IFsnYXBwLndzJywgJ2FwcC53c01lc3NhZ2UnXSxcclxuICAgICAgICAgICAgfSxcclxuICAgICAgICB9KSxcclxufSkiXSwibmFtZXMiOlsiY29uZmlndXJlU3RvcmUiLCJtYWluQXBwU2xpY2UiLCJ0b2FzdFNsaWNlIiwiYXBwU2xpY2UiLCJyZWR1Y2VyIiwidG9hc3QiLCJtYWluQXBwIiwiYXBwIiwibWlkZGxld2FyZSIsImdldERlZmF1bHRNaWRkbGV3YXJlIiwic2VyaWFsaXphYmxlQ2hlY2siLCJpZ25vcmVkQWN0aW9ucyIsImlnbm9yZWRQYXRocyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./scripts/store.js\n");
 
+/***/ }),
 
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
-function GlobalToast() {
-    const toastContent = (0,external_react_redux_.useSelector)((state)=>state.toast.content
-    );
-    const dispatch = (0,external_react_redux_.useDispatch)();
-    const { 0: showToast , 1: setShowToast  } = (0,external_react_.useState)(false);
-    const closeToast = ()=>{
-        dispatch((0,toastSlice/* close */.xv)());
-        setShowToast(false);
-    };
-    if (toastContent === null) {
-        return(/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        }));
-    }
-    if (!showToast) {
-        setTimeout(()=>setShowToast(true)
-        , 200);
-        return(/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        }));
-    }
-    setTimeout(()=>{
-        closeToast();
-    }, 6000);
-    return(/*#__PURE__*/ jsx_runtime_.jsx(Toast, {
-        content: toastContent,
-        closeToast: closeToast
-    }));
-}
-function PortConnectivity({ pageProps  }) {
-    const dispatch = (0,external_react_redux_.useDispatch)();
-    const connectToWSServer = ()=>{
-        const ws = new WebSocket(`ws://localhost:${pageProps.__application_ports.wsServerPort}`);
-        ws.addEventListener('open', ()=>{
-            dispatch(setApplicationSocket(ws));
-        });
-        ws.addEventListener('message', (message)=>{
-            dispatch(notifyClientSocket(JSON.parse(message.data)));
-        });
-        ws.addEventListener('error', ()=>{
-            dispatch(setApplicationSocket(null));
-        });
-        ws.addEventListener('close', ()=>{
-            dispatch(setApplicationSocket(null));
-        });
-    };
-    (0,external_react_.useEffect)(()=>{
-        if (pageProps.__application_ports) {
-            dispatch(setApplicationPorts(pageProps.__application_ports));
-            connectToWSServer();
-        }
-    });
-    return "";
-}
-function MyApp({ Component , pageProps  }) {
-    // Ini adalah handler aplikasi custom yang sudah terintegrasi
-    // dengan react-redux
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_redux_.Provider, {
-        store: store,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(GlobalToast, {
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(PortConnectivity, {
-                pageProps: pageProps
-            })
-        ]
-    }));
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 184:
+/***/ "@reduxjs/toolkit":
+/*!***********************************!*\
+  !*** external "@reduxjs/toolkit" ***!
+  \***********************************/
 /***/ ((module) => {
 
 "use strict";
@@ -214,7 +130,10 @@ module.exports = require("@reduxjs/toolkit");
 
 /***/ }),
 
-/***/ 689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -222,7 +141,10 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 22:
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
 /***/ ((module) => {
 
 "use strict";
@@ -230,7 +152,10 @@ module.exports = require("react-redux");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -245,7 +170,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [488], () => (__webpack_exec__(111)));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

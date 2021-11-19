@@ -9,7 +9,9 @@ const { format: URLFormat } = require('url');
 const electronIsDev = require('electron-is-dev');
 
 function startService() {
-    electronApp().then(({ electronApp, electronWindow, ipcMain }) => {
+    electronApp().then(({ electronApp: electronApp_, electronWindow, ipcMain }) => {
+        console.log('Starting kasirku v' + electronApp_.getVersion());
+
         // Menampilkan tampilan boot ketika aplikasi masih
         // menyiapkan port
         electronWindow.loadFile(join(__dirname, './boot.html'));
@@ -75,6 +77,8 @@ function startService() {
                                     const parsedMessage = JSON.parse(message.toString());
                                     // console.log(parsedMessage)
                                     switch (parsedMessage.action) {
+                                        case 'current-version':
+                                            ws.send(JSON.stringify({ action: 'version', payload: electronApp_.getVersion() }));
                                         case 'check-update':
                                             autoUpdater.checkForUpdatesAndNotify();
                                             break;

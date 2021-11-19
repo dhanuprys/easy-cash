@@ -9,6 +9,7 @@ import styles from './ApplicationInfo.module.css';
 export default function ApplicationInfo() {
     const dispatch = useDispatch();
     const wsMessage = useSelector((state) => state.app.wsMessage);
+    const appVersion = useSelector((state) => state.app.version);
     const ws = useSelector((state) => state.app.ws);
     const [ isUpdateEvent, setUpdate ] = useState(false);
     const checkForUpdates = () => {
@@ -62,7 +63,7 @@ export default function ApplicationInfo() {
                         <div className={styles.updateProgress}>
                             <div className={styles.updateProgressUI}>&nbsp;</div>
                         </div>
-                        <span style={{ fontSize: '13px', color: 'grey' }}>Terakhir dicek: kemarin</span>
+                        <span style={{ fontSize: '13px', color: 'grey' }}>Terakhir dicek: kemarin<br />Versi saat ini {appVersion}</span>
                     </div>
                 </div>
                 <div className={styles.updateAction}>
