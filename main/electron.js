@@ -12,8 +12,6 @@ module.exports = function () {
                 }
             });
 
-            electronWindow.maximize();
-
             resolve({
                 electronApp,
                 electronWindow,

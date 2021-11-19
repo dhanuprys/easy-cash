@@ -5,32 +5,50 @@ const jsonServerService = require('./json-server');
 const electronApp = require('./electron');
 const { autoUpdater } = require('electron-updater');
 const { join } = require('path');
+const { format: URLFormat } = require('url');
 const electronIsDev = require('electron-is-dev');
 
 function startService() {
     electronApp().then(({ electronApp, electronWindow, ipcMain }) => {
-        // autoUpdater.on()
+        // Menampilkan tampilan boot ketika aplikasi masih
+        // menyiapkan port
+        electronWindow.loadFile(join(__dirname, './boot.html'));
+
         // Menjalankan server web
         nextServerService().then(({ port: nextServerPort }) => {
+            electronWindow.webContents.send('message', 'Next server started');
             wsServerService().then(({ port: wsServerPort, wss }) => {
+                electronWindow.webContents.send('message', 'WS server started');
+
                 // Menjalankan json server untuk login
                 jsonServerService(3001, 'userdata.json').then(({ port: jsonServerPort_userdata }) => {
+                    electronWindow.webContents.send('message', 'JSON server started [1]');
+
                     // Menjalankan json server untuk setelan aplikasi
                     jsonServerService(3002, 'preferences.json').then(({ port: jsonServerPort_preferences }) => {
+                        electronWindow.webContents.send('message', 'JSON server started [2]');
+
                         // Menjalankan json server untuk penyimpanan stok
                         jsonServerService(3003, 'stocks.json').then(({ port: jsonServerPort_stocks }) => {
+                            electronWindow.webContents.send('message', 'JSON server started [3]');
+
                             let wsClient = [];
 
                             autoUpdater.on('checking-for-update', () => {
                                 console.log('Checking update');
                             });
 
+                            // Event ini akan dipanggil jika auto-updater menemukan
+                            // bahwa aplikasi memiliki update
                             autoUpdater.on('update-available', () => {
                                 if (wsClient) {
                                     wsClient.map(ws => ws.send(JSON.stringify({ action: 'update-available' })));
                                 }
                             });
 
+                            // Event dibawah akan dieksekusi jika tidak tidak ada 
+                            // update yang tersedia
+                            // Harus menjalankan check-update
                             autoUpdater.on('update-not-available', () => {
                                 console.log('Update not available');
                             });
@@ -46,6 +64,12 @@ function startService() {
                             });
 
                             wss.on('connection', (ws) => {
+                                // Jika ada lebih dari 3 client yang terhubung pada
+                                // websokcet, maka variabel wsClient akan di-reset
+                                if (wsClient.length >= 3) {
+                                    wsClient = [];
+                                }
+
                                 wsClient.push(ws);
                                 ws.on('message', (message) => {
                                     const parsedMessage = JSON.parse(message.toString());
@@ -86,8 +110,19 @@ function startService() {
                                 jsonServerPort_preferences,
                                 jsonServerPort_stocks
                             })).then(() => {
-                                console.log('Success writing ports')
-                                electronWindow.loadURL('http://localhost:' + nextServerPort);
+                                console.log('Success writing ports');
+                                electronWindow.webContents.send('message', 'Success writing application ports');
+
+                                if (!electronIsDev) {
+                                    // Menampilkan aplikasi dalam ukuran maksimal
+                                    electronWindow.webContents.send('message', 'Maximizing application size');
+                                    electronWindow.setFullScreen(true);
+                                }
+
+                                electronWindow.webContents.send('message', 'Opening main app...');
+                                setTimeout(() => {
+                                    electronWindow.loadURL('http://localhost:' + nextServerPort);
+                                }, 3000);
                             }).catch(err => {
                                 console.log('Error writing ports');
                                 throw err;

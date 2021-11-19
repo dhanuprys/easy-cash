@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            html, body {
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+            }
+
+            .center-box {
+                min-width: 100vw;
+                min-height: 100vh;
+                max-width: 100vw;
+                max-height: 100vh;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .img {
+                background: grey;
+                min-width: 140px;
+                min-height: 140px;
+            }
+
+            #id {
+                color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center-box">
+            <div class="img"></div>
+            <h2>KasirKu</h2>
+            <div id="process"></div>
+        </div>
+        <script>
+            const { ipcRenderer } = require('electron');
+            const process = document.getElementById('process');
+
+            ipcRenderer.on('message', (event, msg) => {
+                process.innerHTML = process.innerHTML + '<br /><span>' + msg + '</span>';
+            });
+        </script>
+    </body>
+</html>
