@@ -21,10 +21,18 @@ function startService() {
                         jsonServerService(3003, 'stocks.json').then(({ port: jsonServerPort_stocks }) => {
                             let wsClient = [];
 
+                            autoUpdater.on('checking-for-update', () => {
+                                console.log('Checking update');
+                            });
+
                             autoUpdater.on('update-available', () => {
                                 if (wsClient) {
                                     wsClient.map(ws => ws.send(JSON.stringify({ action: 'update-available' })));
                                 }
+                            });
+
+                            autoUpdater.on('update-not-available', () => {
+                                console.log('Update not available');
                             });
 
                             autoUpdater.on('download-progress', (progressObj) => {
